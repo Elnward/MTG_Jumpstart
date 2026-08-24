@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MTG Jumpstart Deck Library",
+  "type": "object",
+  "required": ["collection", "decks"],
+  "properties": {
+    "collection": { "type": "string", "minLength": 1 },
+    "setCode": { "type": "string" },
+    "group": { "enum": ["W", "U", "B", "R", "G", "M"] },
+    "notes": { "type": "array", "items": { "type": "string" } },
+    "_template": { "$ref": "#/$defs/deck" },
+    "decks": { "type": "array", "items": { "$ref": "#/$defs/deck" } }
+  },
+  "$defs": {
+    "entry": {
+      "type": "object",
+      "required": ["name", "qty"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "qty": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "deck": {
+      "type": "object",
+      "required": ["id", "name", "group", "colors", "description", "cards", "lands"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "name": { "type": "string", "minLength": 1 },
+        "group": { "enum": ["W", "U", "B", "R", "G", "M"] },
+        "colors": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "enum": ["W", "U", "B", "R", "G"] }
+        },
+        "description": { "type": "string" },
+        "cards": { "type": "array", "items": { "$ref": "#/$defs/entry" } },
+        "lands": { "type": "array", "items": { "$ref": "#/$defs/entry" } }
+      }
+    }
+  }
+}
