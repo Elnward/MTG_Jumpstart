@@ -1,0 +1,20 @@
+{
+  "collection": "Eigene Jumpstart-Decks",
+  "notes": [
+    "Eigene Halfdecks hier in das decks-Array eintragen. Jedes Halfdeck sollte insgesamt 20 Karten enthalten."
+  ],
+  "decks": [],
+  "_template": {
+    "id": "mein-eigenes-deck",
+    "name": "Mein eigenes Deck",
+    "group": "M",
+    "colors": ["W", "U"],
+    "description": "Kurze Beschreibung der Spielidee.",
+    "cards": [
+      { "name": "Beispielkarte", "qty": 1 }
+    ],
+    "lands": [
+      { "name": "Plains", "qty": 7 }
+    ]
+  }
+}
