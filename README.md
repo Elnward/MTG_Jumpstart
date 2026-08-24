@@ -1,6 +1,6 @@
 # MTG Jumpstart Cube Library
 
-Mobile Sortierhilfe für einen **Magic: The Gathering Jumpstart Cube**. Die Seite ist als statische GitHub-Pages-Seite aufgebaut: QR-Code scannen, Halfdeck auswählen und die Kartenliste zum Zurücksortieren verwenden.
+Mobile Sortierhilfe für einen **Magic: The Gathering Jumpstart Cube**: QR-Code scannen, Halfdeck auswählen und die Kartenliste zum Zurücksortieren verwenden.
 
 ## Enthalten
 
@@ -17,7 +17,7 @@ Die Marvel-Halfdecks haben jeweils 20 Karten. Basic-Land-Artworks bzw. Collector
 
 ## GitHub Pages aktivieren
 
-Dieses Repository ist bereits für statisches Hosting vorbereitet. Einmalig auf GitHub:
+Das Repository ist für statisches Hosting vorbereitet. Einmalig auf GitHub:
 
 1. `Settings` → `Pages`
 2. Unter **Build and deployment**: `Deploy from a branch`
@@ -25,7 +25,7 @@ Dieses Repository ist bereits für statisches Hosting vorbereitet. Einmalig auf 
 4. Ordner: `/(root)`
 5. `Save`
 
-Danach ist die Bibliothek unter folgendem Link erreichbar:
+Danach ist die Bibliothek unter dieser Adresse erreichbar:
 
 `https://elnward.github.io/MTG_Jumpstart/`
 
@@ -33,7 +33,7 @@ Der QR-Code in `assets/qr-library.svg` und die druckbare `proxy.html` zeigen ber
 
 ## Eigenes Jumpstart-Halfdeck hinzufügen
 
-Eigene Decks kommen ausschließlich in:
+Eigene Decks kommen in:
 
 `data/custom.json`
 
@@ -79,14 +79,22 @@ Die Website kann mehrere Bibliotheksdateien zusammenführen. Neue Sammlungen kö
 ├── proxy.html
 ├── app.js
 ├── styles.css
+├── .nojekyll
 ├── assets/
 │   └── qr-library.svg
 └── data/
     ├── library.json
-    ├── marvel-super-heroes.json
     ├── custom.json
-    └── deck-library.schema.json
+    ├── deck-library.schema.json
+    ├── marvel-r.json
+    ├── marvel-u.json
+    ├── marvel-w.json
+    ├── marvel-b.json
+    ├── marvel-g.json
+    └── marvel-m.json
 ```
+
+Die Marvel-Dateien sind nach dem Abschnitt der Übersichtsseite aufgeteilt. `data/library.json` bestimmt sowohl die Reihenfolge als auch welche JSON-Dateien geladen werden.
 
 ## Datenquelle
 
