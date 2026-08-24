@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jumpstart QR-Karte</title>
+  <style>
+    *{box-sizing:border-box}
+    body{margin:0;background:#161719;color:#f4f1ea;font-family:system-ui,-apple-system,sans-serif}
+    main{min-height:100vh;display:grid;place-items:center;padding:24px}
+    .proxy{width:63mm;height:88mm;padding:6mm 5mm;border:1px solid #555;border-radius:3.5mm;background:#f3efe5;color:#171717;display:flex;flex-direction:column;align-items:center;justify-content:space-between;text-align:center}
+    h1{font-size:15pt;line-height:1.05;margin:0}
+    p{font-size:8.5pt;line-height:1.35;margin:0;color:#444}
+    img{width:44mm;height:44mm}
+    .url{font-size:6.5pt;word-break:break-all}
+    .back{position:fixed;left:16px;top:16px;color:white}
+    @page{size:63mm 88mm;margin:0}
+    @media print{body{background:white}main{padding:0;min-height:auto}.proxy{border:0;border-radius:0}.back{display:none}}
+  </style>
+</head>
+<body>
+  <a class="back" href="./">← Bibliothek</a>
+  <main>
+    <section class="proxy">
+      <div><h1>MTG Jumpstart Cube</h1><p>Scannen · Deck wählen · Karten zurücksortieren</p></div>
+      <img src="assets/qr-library.svg" alt="QR-Code zur Jumpstart-Bibliothek">
+      <p class="url">elnward.github.io/MTG_Jumpstart/</p>
+    </section>
+  </main>
+</body>
+</html>
