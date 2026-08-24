@@ -1,0 +1,14 @@
+{
+  "title": "MTG Jumpstart Cube",
+  "subtitle": "Deck auswählen, Karten sortieren, fertig.",
+  "colorOrder": ["R", "U", "W", "B", "G", "M"],
+  "sources": [
+    "data/marvel-r.json",
+    "data/marvel-u.json",
+    "data/marvel-w.json",
+    "data/marvel-b.json",
+    "data/marvel-g.json",
+    "data/marvel-m.json",
+    "data/custom.json"
+  ]
+}
