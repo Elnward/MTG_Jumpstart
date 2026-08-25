@@ -31,6 +31,7 @@ const TYPE_LABELS = {
   Land: "Länder"
 };
 
+const CARD_TYPE_CACHE_KEY = "mtg-jumpstart-card-types-v1";
 const app = document.querySelector("#app");
 
 function el(tag, className, text) {
@@ -178,6 +179,65 @@ function normalizeType(item, fallback = "Other") {
   return TYPE_ORDER.includes(value) ? value : "Other";
 }
 
+function primaryType(typeLine = "") {
+  const precedence = ["Creature", "Planeswalker", "Battle", "Sorcery", "Instant", "Enchantment", "Artifact", "Land"];
+  return precedence.find(type => typeLine.includes(type)) || "Other";
+}
+
+function readTypeCache() {
+  try {
+    return JSON.parse(localStorage.getItem(CARD_TYPE_CACHE_KEY) || "{}");
+  } catch {
+    return {};
+  }
+}
+
+function writeTypeCache(cache) {
+  try {
+    localStorage.setItem(CARD_TYPE_CACHE_KEY, JSON.stringify(cache));
+  } catch {
+    // Local storage is optional; the page still works without it.
+  }
+}
+
+async function resolveMissingCardTypes(deck) {
+  const cards = deck.cards || [];
+  const missing = cards.filter(item => !item.type);
+  if (!missing.length) return;
+
+  const cache = readTypeCache();
+  const unresolved = [];
+
+  missing.forEach(item => {
+    if (cache[item.name]) item.type = cache[item.name];
+    else unresolved.push(item);
+  });
+
+  if (!unresolved.length) return;
+
+  try {
+    const response = await fetch("https://api.scryfall.com/cards/collection", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ identifiers: unresolved.map(item => ({ name: item.name })) })
+    });
+
+    if (!response.ok) throw new Error(`Scryfall: ${response.status}`);
+    const data = await response.json();
+
+    (data.data || []).forEach(card => {
+      const type = primaryType(card.type_line || "");
+      cache[card.name] = type;
+      const item = unresolved.find(entry => entry.name === card.name);
+      if (item) item.type = type;
+    });
+
+    writeTypeCache(cache);
+  } catch (error) {
+    console.warn("Kartentypen konnten nicht vollständig nachgeladen werden.", error);
+  }
+}
+
 function renderList(title, entries) {
   const panel = el("section", "list-panel");
   const itemCount = entries.reduce((sum, item) => sum + Number(item.qty || 0), 0);
@@ -214,7 +274,7 @@ function groupedDeckEntries(deck) {
     .filter(group => group.entries.length > 0);
 }
 
-function renderDetail(config, decks, deckId) {
+async function renderDetail(config, decks, deckId) {
   const deck = decks.find(item => item.id === deckId);
   app.replaceChildren();
 
@@ -243,20 +303,25 @@ function renderDetail(config, decks, deckId) {
   head.append(meta);
   detail.append(head);
 
+  const loadingTypes = el("div", "type-loading", "Kartentypen werden zugeordnet …");
+  detail.append(loadingTypes);
+  app.append(detail);
+
+  await resolveMissingCardTypes(deck);
+  loadingTypes.remove();
+
   const lists = el("div", "card-lists card-lists-types");
   groupedDeckEntries(deck).forEach(group => {
     lists.append(renderList(TYPE_LABELS[group.type] || group.type, group.entries));
   });
   detail.append(lists);
-
-  app.append(detail);
 }
 
 async function init() {
   try {
     const { config, decks } = await loadLibrary();
     const deckId = new URLSearchParams(location.search).get("deck");
-    if (deckId) renderDetail(config, decks, deckId);
+    if (deckId) await renderDetail(config, decks, deckId);
     else renderOverview(config, decks);
   } catch (error) {
     console.error(error);
