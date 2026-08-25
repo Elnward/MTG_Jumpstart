@@ -1,7 +1,8 @@
 {
   "collection": "Eigene Jumpstart-Decks",
   "notes": [
-    "Eigene Halfdecks hier in das decks-Array eintragen. Jedes Halfdeck sollte insgesamt 20 Karten enthalten."
+    "Eigene Halfdecks hier in das decks-Array eintragen. Jedes Halfdeck sollte insgesamt 20 Karten enthalten.",
+    "Bei Karten den Haupttyp unter type angeben, damit die Detailansicht automatisch gruppiert: Creature, Sorcery, Instant, Enchantment, Artifact, Planeswalker, Battle oder Other. Länder verwenden Land."
   ],
   "decks": [],
   "_template": {
@@ -11,10 +12,11 @@
     "colors": ["W", "U"],
     "description": "Kurze Beschreibung der Spielidee.",
     "cards": [
-      { "name": "Beispielkarte", "qty": 1 }
+      { "name": "Beispielkreatur", "qty": 1, "type": "Creature" },
+      { "name": "Beispielzauber", "qty": 1, "type": "Instant" }
     ],
     "lands": [
-      { "name": "Plains", "qty": 7 }
+      { "name": "Plains", "qty": 7, "type": "Land" }
     ]
   }
 }
