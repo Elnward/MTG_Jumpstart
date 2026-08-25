@@ -1,0 +1,119 @@
+name: Enrich card types
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/enrich-card-types.yml'
+      - 'data/marvel-*.json'
+
+permissions:
+  contents: write
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Add card types from Scryfall
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          import pathlib
+          import re
+          import urllib.request
+          import unicodedata
+
+          headers = {
+              "User-Agent": "MTG-Jumpstart-Cube-Library/1.0 (GitHub Actions)",
+              "Accept": "application/json"
+          }
+
+          meta_req = urllib.request.Request(
+              "https://api.scryfall.com/bulk-data/oracle-cards",
+              headers=headers,
+          )
+          with urllib.request.urlopen(meta_req) as response:
+              meta = json.load(response)
+
+          bulk_req = urllib.request.Request(meta["download_uri"], headers=headers)
+          with urllib.request.urlopen(bulk_req) as response:
+              oracle_cards = json.load(response)
+
+          def norm(value):
+              value = unicodedata.normalize("NFKD", value)
+              value = value.replace("’", "'").replace("‘", "'")
+              value = value.replace("–", "-").replace("—", "-")
+              return re.sub(r"\s+", " ", value).strip().casefold()
+
+          by_name = {norm(card["name"]): card for card in oracle_cards}
+
+          def primary_type(type_line):
+              # Creature takes precedence for Artifact/Enchantment Creatures, matching
+              # the way decklists are normally grouped for sorting.
+              order = [
+                  "Creature", "Planeswalker", "Battle", "Sorcery", "Instant",
+                  "Enchantment", "Artifact", "Land"
+              ]
+              for card_type in order:
+                  if card_type in type_line:
+                      return card_type
+              return "Other"
+
+          unresolved = []
+          touched = 0
+
+          for path in sorted(pathlib.Path("data").glob("marvel-*.json")):
+              data = json.loads(path.read_text(encoding="utf-8"))
+              changed = False
+
+              for deck in data.get("decks", []):
+                  for item in deck.get("cards", []):
+                      card = by_name.get(norm(item["name"]))
+                      if not card:
+                          unresolved.append(f"{path}: {item['name']}")
+                          continue
+                      category = primary_type(card.get("type_line", ""))
+                      if item.get("type") != category:
+                          item["type"] = category
+                          changed = True
+
+                  for item in deck.get("lands", []):
+                      if item.get("type") != "Land":
+                          item["type"] = "Land"
+                          changed = True
+
+              if changed:
+                  path.write_text(
+                      json.dumps(data, ensure_ascii=False, indent=2) + "\n",
+                      encoding="utf-8",
+                  )
+                  touched += 1
+
+          if unresolved:
+              print("Unresolved card names:")
+              for item in unresolved:
+                  print(" -", item)
+              raise SystemExit(1)
+
+          print(f"Updated {touched} Marvel data files.")
+          PY
+
+      - name: Commit enriched data
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/marvel-*.json
+          if git diff --cached --quiet; then
+            echo 'No type metadata changed.'
+            exit 0
+          fi
+          git commit -m 'Add card type metadata [skip ci]'
+          git push
