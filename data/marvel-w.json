@@ -1,1 +1,837 @@
-{"collection":"Magic: The Gathering | Marvel Super Heroes Jumpstart","setCode":"MSH","group":"W","decks":[{"id":"agents-of-s-h-i-e-l-d","name":"Agents of S.H.I.E.L.D.","group":"W","colors":["W"],"description":"Attack alone to gain bonuses and infiltrate the enemy.","cards":[{"name":"Agent Phil Coulson","qty":1},{"name":"Peggy Carter, Secret Agent","qty":1},{"name":"Agent 13, Sharon Carter","qty":1},{"name":"Agents of S.H.I.E.L.D.","qty":1},{"name":"Quake, Agent of S.H.I.E.L.D.","qty":1},{"name":"S.H.I.E.L.D. Helicarrier","qty":1},{"name":"Borough Backup","qty":1},{"name":"Nick Fury, Spymaster","qty":1},{"name":"S.H.I.E.L.D. Spy Kit","qty":1},{"name":"Helicarrier Strike","qty":1},{"name":"Strategic Intervention","qty":1},{"name":"Web Up","qty":1}],"lands":[{"name":"Thriving Heath","qty":1},{"name":"Plains","qty":7}]},{"id":"battalion","name":"Battalion","group":"W","colors":["W"],"description":"Attack with three or more creatures to deal overwhelming damage.","cards":[{"name":"General Thunderbolt Ross","qty":1},{"name":"The Howling Commandos","qty":1},{"name":"Wakandan Shield Guard","qty":1},{"name":"Wild Pack Squad","qty":1},{"name":"Falcon, Joaquin Torres","qty":1},{"name":"War Machine, James Rhodes","qty":1},{"name":"U.S.Agent, John Walker","qty":1},{"name":"Captain America, Skybound","qty":1},{"name":"Ultimate Alliance","qty":1},{"name":"Helicarrier Strike","qty":1},{"name":"Heroic Teamwork","qty":1},{"name":"Fall to Earth","qty":1}],"lands":[{"name":"Thriving Heath","qty":1},{"name":"Plains","qty":7}]},{"id":"caretakers","name":"Caretakers","group":"W","colors":["W"],"description":"Care for yourself and your allies by gaining life.","cards":[{"name":"Crowd of True Believers","qty":1},{"name":"Night Nurse, Healer of Heroes","qty":1},{"name":"Donald Blake, Guise of Thor","qty":1},{"name":"MJ, Rising Star","qty":1},{"name":"Virtuous Variant","qty":1},{"name":"Doctor Jane Foster","qty":1},{"name":"Valkyrior Skyrider","qty":1},{"name":"Doctor Strange, Surgeon","qty":1},{"name":"Take Up the Shield","qty":1},{"name":"Super Villain Lockup","qty":1},{"name":"Infinity Formula","qty":1},{"name":"Fall to Earth","qty":1}],"lands":[{"name":"Thriving Heath","qty":1},{"name":"Plains","qty":7}]},{"id":"counterargument","name":"Counterargument","group":"W","colors":["W"],"description":"Take the fight to court and dish out +1/+1 counters!","cards":[{"name":"City Pigeon","qty":1},{"name":"Selfless Police Captain","qty":1},{"name":"Matt Murdock, Justice Seeker","qty":1},{"name":"She-Hulk, Attorney-at-Law","qty":1},{"name":"Foggy Nelson, On Retainer","qty":1},{"name":"Daily Bugle Reporters","qty":1},{"name":"Starling, Aerial Ally","qty":1},{"name":"Vault Guardsman","qty":1},{"name":"Political Triumph","qty":1},{"name":"Costume Closet","qty":1},{"name":"Murdock's Crusade","qty":1},{"name":"Web Up","qty":1}],"lands":[{"name":"Thriving Heath","qty":1},{"name":"Plains","qty":7}]},{"id":"equipped","name":"Equipped","group":"W","colors":["W"],"description":"Use Equipment to lead Cap and company to victory.","cards":[{"name":"Bucky Barnes, Eager Ally","qty":1},{"name":"Peggy Carter, Secret Agent","qty":1},{"name":"The Howling Commandos","qty":1},{"name":"Agent 13, Sharon Carter","qty":1},{"name":"Patriot, Young Avenger","qty":1},{"name":"U.S.Agent, John Walker","qty":1},{"name":"Captain America, Liberator","qty":1},{"name":"Captain America's Shield","qty":1},{"name":"Take Up the Shield","qty":1},{"name":"Infinity Formula","qty":1},{"name":"Origin of Captain America","qty":1},{"name":"Secure Detention","qty":1}],"lands":[{"name":"Thriving Heath","qty":1},{"name":"Plains","qty":7}]},{"id":"marvelous","name":"Marvelous","group":"W","colors":["W"],"description":"Flicker your Marvels in and out of exile, triggering \"enters\" effects.","cards":[{"name":"Wakandan Shield Guard","qty":1},{"name":"Raft Security Officer","qty":1},{"name":"Marvel Boy, Noh-Varr","qty":1},{"name":"Hero in Training","qty":1},{"name":"Ms. Marvel, Elastic Ally","qty":1},{"name":"Photon, Lady of Light","qty":1},{"name":"Captain Mar-Vell, Space-Born","qty":1},{"name":"Captain Marvel, Shooting Star","qty":1},{"name":"Helicarrier Strike","qty":1},{"name":"Quantum Entanglement","qty":1},{"name":"Super Villain Lockup","qty":1},{"name":"Fall to Earth","qty":1}],"lands":[{"name":"Thriving Heath","qty":1},{"name":"Plains","qty":7}]},{"id":"precise","name":"Precise","group":"W","colors":["W"],"description":"Target Hawkeye and his allies with spells to trigger their abilities.","cards":[{"name":"Colleen Wing, Street Samurai","qty":1},{"name":"Agent of Atlas","qty":1},{"name":"Raft Security Officer","qty":1},{"name":"Kree Commandos","qty":1},{"name":"Hawkeye, Bowslinger","qty":1},{"name":"Mockingbird, Ace Agent","qty":1},{"name":"Valkyrior Skyrider","qty":1},{"name":"Panther Pounce","qty":1},{"name":"Stunning Shot","qty":1},{"name":"Sudden Strike","qty":1},{"name":"Heroic Teamwork","qty":1},{"name":"Fall to Earth","qty":1}],"lands":[{"name":"Thriving Heath","qty":1},{"name":"Plains","qty":7}]},{"id":"squadron","name":"Squadron","group":"W","colors":["W"],"description":"Support your Heroes into becoming a true Squadron Supreme!","cards":[{"name":"Agent of Atlas","qty":1},{"name":"Brave Brawler","qty":1},{"name":"Nighthawk, Dark Defender","qty":1},{"name":"Hero in Training","qty":1},{"name":"Zarda, the Power Princess","qty":1},{"name":"Doctor Spectrum","qty":1},{"name":"Borough Backup","qty":1},{"name":"Hyperion, Supreme Hero","qty":1},{"name":"Hyperion's Atomic Vision","qty":1},{"name":"Heroic Teamwork","qty":1},{"name":"Web Up","qty":1},{"name":"Blur of Heroism","qty":1}],"lands":[{"name":"Thriving Heath","qty":1},{"name":"Plains","qty":7}]},{"id":"wakanda","name":"Wakanda","group":"W","colors":["W"],"description":"Create creature tokens to flood the battlefield with Wakandan forces.","cards":[{"name":"Wakandan Shield Guard","qty":1},{"name":"Wakandan Tusker","qty":1},{"name":"Black Panther, Most Dangerous","qty":1},{"name":"Shuri, Vibranium Technologist","qty":1},{"name":"Okoye, Dora Milaje Leader","qty":1},{"name":"Wakandan Drone Flock","qty":1},{"name":"Borough Backup","qty":1},{"name":"Vibranium Energy Daggers","qty":1},{"name":"Ultimate Alliance","qty":1},{"name":"Panther Pounce","qty":1},{"name":"Heroic Teamwork","qty":1},{"name":"Secure Detention","qty":1}],"lands":[{"name":"Thriving Heath","qty":1},{"name":"Plains","qty":7}]},{"id":"web-slinging","name":"Web-Slinging","group":"W","colors":["W"],"description":"Sling out your small tapped creatures for powerful Spider-Heroes.","cards":[{"name":"Aunt May","qty":1},{"name":"Flash Thompson, Spider-Fan","qty":1},{"name":"Gallant Citizen","qty":1},{"name":"Spider-Man, Web-Slinger","qty":1},{"name":"Virtuous Variant","qty":1},{"name":"Spider-UK","qty":1},{"name":"Amazing Spider-Girl","qty":1},{"name":"Vault Guardsman","qty":1},{"name":"Thwip!","qty":1},{"name":"Spectacular Tactics","qty":1},{"name":"Web Up","qty":1},{"name":"Spider-Mobile","qty":1}],"lands":[{"name":"Thriving Heath","qty":1},{"name":"Plains","qty":7}]}]}
+{
+  "collection": "Magic: The Gathering | Marvel Super Heroes Jumpstart",
+  "setCode": "MSH",
+  "group": "W",
+  "decks": [
+    {
+      "id": "agents-of-s-h-i-e-l-d",
+      "name": "Agents of S.H.I.E.L.D.",
+      "group": "W",
+      "colors": [
+        "W"
+      ],
+      "description": "Attack alone to gain bonuses and infiltrate the enemy.",
+      "cards": [
+        {
+          "name": "Agent Phil Coulson",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Peggy Carter, Secret Agent",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Agent 13, Sharon Carter",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Agents of S.H.I.E.L.D.",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Quake, Agent of S.H.I.E.L.D.",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "S.H.I.E.L.D. Helicarrier",
+          "qty": 1,
+          "type": "Artifact"
+        },
+        {
+          "name": "Borough Backup",
+          "qty": 1,
+          "type": "Sorcery"
+        },
+        {
+          "name": "Nick Fury, Spymaster",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "S.H.I.E.L.D. Spy Kit",
+          "qty": 1,
+          "type": "Artifact"
+        },
+        {
+          "name": "Helicarrier Strike",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Strategic Intervention",
+          "qty": 1,
+          "type": "Enchantment"
+        },
+        {
+          "name": "Web Up",
+          "qty": 1,
+          "type": "Enchantment"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Heath",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Plains",
+          "qty": 7,
+          "type": "Land"
+        }
+      ]
+    },
+    {
+      "id": "battalion",
+      "name": "Battalion",
+      "group": "W",
+      "colors": [
+        "W"
+      ],
+      "description": "Attack with three or more creatures to deal overwhelming damage.",
+      "cards": [
+        {
+          "name": "General Thunderbolt Ross",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "The Howling Commandos",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Wakandan Shield Guard",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Wild Pack Squad",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Falcon, Joaquin Torres",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "War Machine, James Rhodes",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "U.S.Agent, John Walker",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Captain America, Skybound",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Ultimate Alliance",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Helicarrier Strike",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Heroic Teamwork",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Fall to Earth",
+          "qty": 1,
+          "type": "Instant"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Heath",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Plains",
+          "qty": 7,
+          "type": "Land"
+        }
+      ]
+    },
+    {
+      "id": "caretakers",
+      "name": "Caretakers",
+      "group": "W",
+      "colors": [
+        "W"
+      ],
+      "description": "Care for yourself and your allies by gaining life.",
+      "cards": [
+        {
+          "name": "Crowd of True Believers",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Night Nurse, Healer of Heroes",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Donald Blake, Guise of Thor",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "MJ, Rising Star",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Virtuous Variant",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Doctor Jane Foster",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Valkyrior Skyrider",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Doctor Strange, Surgeon",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Take Up the Shield",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Super Villain Lockup",
+          "qty": 1,
+          "type": "Enchantment"
+        },
+        {
+          "name": "Infinity Formula",
+          "qty": 1,
+          "type": "Artifact"
+        },
+        {
+          "name": "Fall to Earth",
+          "qty": 1,
+          "type": "Instant"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Heath",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Plains",
+          "qty": 7,
+          "type": "Land"
+        }
+      ]
+    },
+    {
+      "id": "counterargument",
+      "name": "Counterargument",
+      "group": "W",
+      "colors": [
+        "W"
+      ],
+      "description": "Take the fight to court and dish out +1/+1 counters!",
+      "cards": [
+        {
+          "name": "City Pigeon",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Selfless Police Captain",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Matt Murdock, Justice Seeker",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "She-Hulk, Attorney-at-Law",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Foggy Nelson, On Retainer",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Daily Bugle Reporters",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Starling, Aerial Ally",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Vault Guardsman",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Political Triumph",
+          "qty": 1,
+          "type": "Enchantment"
+        },
+        {
+          "name": "Costume Closet",
+          "qty": 1,
+          "type": "Artifact"
+        },
+        {
+          "name": "Murdock's Crusade",
+          "qty": 1,
+          "type": "Sorcery"
+        },
+        {
+          "name": "Web Up",
+          "qty": 1,
+          "type": "Enchantment"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Heath",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Plains",
+          "qty": 7,
+          "type": "Land"
+        }
+      ]
+    },
+    {
+      "id": "equipped",
+      "name": "Equipped",
+      "group": "W",
+      "colors": [
+        "W"
+      ],
+      "description": "Use Equipment to lead Cap and company to victory.",
+      "cards": [
+        {
+          "name": "Bucky Barnes, Eager Ally",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Peggy Carter, Secret Agent",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "The Howling Commandos",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Agent 13, Sharon Carter",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Patriot, Young Avenger",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "U.S.Agent, John Walker",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Captain America, Liberator",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Captain America's Shield",
+          "qty": 1,
+          "type": "Artifact"
+        },
+        {
+          "name": "Take Up the Shield",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Infinity Formula",
+          "qty": 1,
+          "type": "Artifact"
+        },
+        {
+          "name": "Origin of Captain America",
+          "qty": 1,
+          "type": "Enchantment"
+        },
+        {
+          "name": "Secure Detention",
+          "qty": 1,
+          "type": "Enchantment"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Heath",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Plains",
+          "qty": 7,
+          "type": "Land"
+        }
+      ]
+    },
+    {
+      "id": "marvelous",
+      "name": "Marvelous",
+      "group": "W",
+      "colors": [
+        "W"
+      ],
+      "description": "Flicker your Marvels in and out of exile, triggering \"enters\" effects.",
+      "cards": [
+        {
+          "name": "Wakandan Shield Guard",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Raft Security Officer",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Marvel Boy, Noh-Varr",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Hero in Training",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Ms. Marvel, Elastic Ally",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Photon, Lady of Light",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Captain Mar-Vell, Space-Born",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Captain Marvel, Shooting Star",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Helicarrier Strike",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Quantum Entanglement",
+          "qty": 1,
+          "type": "Enchantment"
+        },
+        {
+          "name": "Super Villain Lockup",
+          "qty": 1,
+          "type": "Enchantment"
+        },
+        {
+          "name": "Fall to Earth",
+          "qty": 1,
+          "type": "Instant"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Heath",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Plains",
+          "qty": 7,
+          "type": "Land"
+        }
+      ]
+    },
+    {
+      "id": "precise",
+      "name": "Precise",
+      "group": "W",
+      "colors": [
+        "W"
+      ],
+      "description": "Target Hawkeye and his allies with spells to trigger their abilities.",
+      "cards": [
+        {
+          "name": "Colleen Wing, Street Samurai",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Agent of Atlas",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Raft Security Officer",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Kree Commandos",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Hawkeye, Bowslinger",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Mockingbird, Ace Agent",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Valkyrior Skyrider",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Panther Pounce",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Stunning Shot",
+          "qty": 1,
+          "type": "Sorcery"
+        },
+        {
+          "name": "Sudden Strike",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Heroic Teamwork",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Fall to Earth",
+          "qty": 1,
+          "type": "Instant"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Heath",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Plains",
+          "qty": 7,
+          "type": "Land"
+        }
+      ]
+    },
+    {
+      "id": "squadron",
+      "name": "Squadron",
+      "group": "W",
+      "colors": [
+        "W"
+      ],
+      "description": "Support your Heroes into becoming a true Squadron Supreme!",
+      "cards": [
+        {
+          "name": "Agent of Atlas",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Brave Brawler",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Nighthawk, Dark Defender",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Hero in Training",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Zarda, the Power Princess",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Doctor Spectrum",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Borough Backup",
+          "qty": 1,
+          "type": "Sorcery"
+        },
+        {
+          "name": "Hyperion, Supreme Hero",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Hyperion's Atomic Vision",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Heroic Teamwork",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Web Up",
+          "qty": 1,
+          "type": "Enchantment"
+        },
+        {
+          "name": "Blur of Heroism",
+          "qty": 1,
+          "type": "Enchantment"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Heath",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Plains",
+          "qty": 7,
+          "type": "Land"
+        }
+      ]
+    },
+    {
+      "id": "wakanda",
+      "name": "Wakanda",
+      "group": "W",
+      "colors": [
+        "W"
+      ],
+      "description": "Create creature tokens to flood the battlefield with Wakandan forces.",
+      "cards": [
+        {
+          "name": "Wakandan Shield Guard",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Wakandan Tusker",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Black Panther, Most Dangerous",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Shuri, Vibranium Technologist",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Okoye, Dora Milaje Leader",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Wakandan Drone Flock",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Borough Backup",
+          "qty": 1,
+          "type": "Sorcery"
+        },
+        {
+          "name": "Vibranium Energy Daggers",
+          "qty": 1,
+          "type": "Artifact"
+        },
+        {
+          "name": "Ultimate Alliance",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Panther Pounce",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Heroic Teamwork",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Secure Detention",
+          "qty": 1,
+          "type": "Enchantment"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Heath",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Plains",
+          "qty": 7,
+          "type": "Land"
+        }
+      ]
+    },
+    {
+      "id": "web-slinging",
+      "name": "Web-Slinging",
+      "group": "W",
+      "colors": [
+        "W"
+      ],
+      "description": "Sling out your small tapped creatures for powerful Spider-Heroes.",
+      "cards": [
+        {
+          "name": "Aunt May",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Flash Thompson, Spider-Fan",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Gallant Citizen",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Spider-Man, Web-Slinger",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Virtuous Variant",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Spider-UK",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Amazing Spider-Girl",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Vault Guardsman",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Thwip!",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Spectacular Tactics",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Web Up",
+          "qty": 1,
+          "type": "Enchantment"
+        },
+        {
+          "name": "Spider-Mobile",
+          "qty": 1,
+          "type": "Artifact"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Heath",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Plains",
+          "qty": 7,
+          "type": "Land"
+        }
+      ]
+    }
+  ]
+}

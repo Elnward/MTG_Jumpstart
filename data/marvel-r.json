@@ -1,1 +1,842 @@
-{"collection":"Magic: The Gathering | Marvel Super Heroes Jumpstart","setCode":"MSH","group":"R","decks":[{"id":"boosted","name":"Boosted","group":"R","colors":["R"],"description":"Power-up as the game progresses!","cards":[{"name":"Quinjet Technician","qty":1},{"name":"Extremis Elite","qty":1},{"name":"Marvel Boy, Noh-Varr","qty":1},{"name":"Jack of Hearts, Volatile Hero","qty":1},{"name":"Molly Hayes, Runaway","qty":1},{"name":"Human Torch, Johnny Storm","qty":1},{"name":"Abomination, Terrifying Titan","qty":1},{"name":"Wonder Man, Hollywood Hero","qty":1},{"name":"Heroes' Hangout","qty":1},{"name":"Vision of Love","qty":1},{"name":"HULK SMASH!","qty":1},{"name":"Inspired Fire","qty":1}],"lands":[{"name":"Thriving Bluff","qty":1},{"name":"Mountain","qty":7}]},{"id":"fearless","name":"Fearless","group":"R","colors":["R"],"description":"Have no fear as you damage yourself for great gain.","cards":[{"name":"Unlucky Witness","qty":1},{"name":"Taxi Driver","qty":1},{"name":"Stick, Fearless Mentor","qty":1},{"name":"Daredevil, Fearless Fighter","qty":1},{"name":"Jessica Jones, Private Eye","qty":1},{"name":"Elektra, Femme Fatale","qty":1},{"name":"Stegron the Dinosaur Man","qty":1},{"name":"Blazing Crescendo","qty":1},{"name":"Daredevil's Billy Club","qty":1},{"name":"HULK SMASH!","qty":1},{"name":"Hire a Crew","qty":1}],"lands":[{"name":"Fogwell's Gym","qty":1},{"name":"Thriving Bluff","qty":1},{"name":"Mountain","qty":7}]},{"id":"heroes-for-hire","name":"Heroes for Hire","group":"R","colors":["R"],"description":"Fight Villains and get paid. Earn Treasure to spend on mana and other rewards.","cards":[{"name":"Stark Industries Executive","qty":1},{"name":"K'un-Lun Warrior","qty":1},{"name":"Misty Knight, Hero for Hire","qty":1},{"name":"Iron Fist, Hero for Hire","qty":1},{"name":"Contract Hero","qty":1},{"name":"Jessica Jones, Private Eye","qty":1},{"name":"Luke Cage, Hero for Hire","qty":1},{"name":"Red Hulk","qty":1},{"name":"Bionic Blow","qty":1},{"name":"Big Score","qty":1},{"name":"Heroes for Hire","qty":1},{"name":"Marvelous Melee","qty":1}],"lands":[{"name":"Thriving Bluff","qty":1},{"name":"Mountain","qty":7}]},{"id":"runaways","name":"Runaways","group":"R","colors":["R"],"description":"Cast your spells from exile to live like a true Runaway.","cards":[{"name":"Chase Stein, Runaway","qty":1},{"name":"Alex Wilder, Runaway","qty":1},{"name":"Molly Hayes, Runaway","qty":1},{"name":"Gert and Old Lace, Runaways","qty":1},{"name":"Karolina Dean, Runaway","qty":1},{"name":"Nico Minoru, Runaway","qty":1},{"name":"Victor Mancha, Runaway","qty":1},{"name":"Shock","qty":1},{"name":"Blazing Crescendo","qty":1},{"name":"Hex Magic","qty":1},{"name":"Crossover Collaboration","qty":1},{"name":"Marvelous Melee","qty":1}],"lands":[{"name":"Thriving Bluff","qty":1},{"name":"Mountain","qty":7}]},{"id":"scarlet","name":"Scarlet","group":"R","colors":["R"],"description":"Cast a storm of spells in one turn with the Scarlet Witch and Vision in play.","cards":[{"name":"Stark Industries Executive","qty":1},{"name":"Loki Laufeyson","qty":1},{"name":"Speed, Young Avenger","qty":1},{"name":"Molten Lavamancer","qty":1},{"name":"Wiccan, Young Avenger","qty":1},{"name":"The Vision and Scarlet Witch","qty":1},{"name":"Kree Sentinel","qty":1},{"name":"Lightning Bolt","qty":1},{"name":"Vision of Love","qty":1},{"name":"Grapeshot","qty":1},{"name":"Hex Magic","qty":1},{"name":"Wanda's Vision","qty":1}],"lands":[{"name":"Thriving Bluff","qty":1},{"name":"Mountain","qty":7}]},{"id":"speedy","name":"Speedy","group":"R","colors":["R"],"description":"Use haste to attack quickly and attack relentlessly.","cards":[{"name":"Masked Meower","qty":1},{"name":"Quicksilver, Brash Blur","qty":1},{"name":"Taxi Driver","qty":1},{"name":"Speed, Young Avenger","qty":1},{"name":"Whirlwind, Killer Cyclone","qty":1},{"name":"Volcanic Villain","qty":1},{"name":"The Whizzer, Classic Speedster","qty":1},{"name":"Living Lightning, Charged Up","qty":1},{"name":"Super Speed","qty":1},{"name":"Pick Up the Pace","qty":1},{"name":"Lightning Strike","qty":1},{"name":"Marvelous Melee","qty":1}],"lands":[{"name":"Thriving Bluff","qty":1},{"name":"Mountain","qty":7}]},{"id":"spider-verse","name":"Spider-Verse","group":"R","colors":["R"],"description":"Unite the Spider-Verse! Discard cards to unleash their potential.","cards":[{"name":"Masked Meower","qty":1},{"name":"Hobgoblin, Mantled Marauder","qty":1},{"name":"Lady Spider, Maybelle Reilly","qty":1},{"name":"Spider-Gwen, Free Spirit","qty":1},{"name":"Spider-Man, New Champion","qty":1},{"name":"Iceman and Firestar","qty":1},{"name":"Astonishing Spider-Man","qty":1},{"name":"Stegron the Dinosaur Man","qty":1},{"name":"Romantic Rendezvous","qty":1},{"name":"Daily Bugle Newspaper","qty":1},{"name":"Wisecrack","qty":1},{"name":"Marvelous Melee","qty":1}],"lands":[{"name":"Thriving Bluff","qty":1},{"name":"Fogwell's Gym","qty":1},{"name":"Mountain","qty":6}]},{"id":"thor","name":"Thor","group":"R","colors":["R"],"description":"Burn your foes with direct damage using Thor's mighty arsenal.","cards":[{"name":"K'un-Lun Warrior","qty":1},{"name":"Loki Laufeyson","qty":1},{"name":"Sif's Spearmaster","qty":1},{"name":"Molten Lavamancer","qty":1},{"name":"Crimson Operative","qty":1},{"name":"Thor, Asgard's Avenger","qty":1},{"name":"Kree Sentinel","qty":1},{"name":"Asgardian Inspiration","qty":1},{"name":"Lightning Bolt","qty":1},{"name":"Lightning Strike","qty":1},{"name":"Origin of Thor","qty":1},{"name":"Mjölnir's Might","qty":1}],"lands":[{"name":"Thriving Bluff","qty":1},{"name":"Mountain","qty":7}]},{"id":"vehicles","name":"Vehicles","group":"R","colors":["R"],"description":"Crew a fleet of Vehicles and you're on the road to victory!","cards":[{"name":"Intrepid Ace","qty":1},{"name":"HYDRA Assault Robot","qty":1},{"name":"Extremis Elite","qty":1},{"name":"Taxi Driver","qty":1},{"name":"Machinesmith Automaton","qty":1},{"name":"Bullseye, Death Dealer","qty":1},{"name":"Captain America's Motorcycle","qty":1},{"name":"Big Wheel","qty":1},{"name":"S.H.I.E.L.D. Helicarrier","qty":1},{"name":"Sky Cycle","qty":1},{"name":"The Thanos-Copter","qty":1},{"name":"Truck Toss","qty":1}],"lands":[{"name":"Thriving Bluff","qty":1},{"name":"Mountain","qty":7}]},{"id":"young-avengers","name":"Young Avengers","group":"R","colors":["R"],"description":"Assemble the Young Avengers and enable their abilities with noncreature spells.","cards":[{"name":"Stature, Young Avenger","qty":1},{"name":"Speed, Young Avenger","qty":1},{"name":"Patriot, Young Avenger","qty":1},{"name":"Iron Lad, Young Avenger","qty":1},{"name":"Wiccan, Young Avenger","qty":1},{"name":"Hawkeye, Young Avenger","qty":1},{"name":"Hulkling, Young Avenger","qty":1},{"name":"Hawkeye's Bow","qty":1},{"name":"Team Tactics","qty":1},{"name":"Lightning Strike","qty":1},{"name":"Crossover Collaboration","qty":1},{"name":"Marvelous Melee","qty":1}],"lands":[{"name":"Thriving Bluff","qty":1},{"name":"Mountain","qty":7}]}]}
+{
+  "collection": "Magic: The Gathering | Marvel Super Heroes Jumpstart",
+  "setCode": "MSH",
+  "group": "R",
+  "decks": [
+    {
+      "id": "boosted",
+      "name": "Boosted",
+      "group": "R",
+      "colors": [
+        "R"
+      ],
+      "description": "Power-up as the game progresses!",
+      "cards": [
+        {
+          "name": "Quinjet Technician",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Extremis Elite",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Marvel Boy, Noh-Varr",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Jack of Hearts, Volatile Hero",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Molly Hayes, Runaway",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Human Torch, Johnny Storm",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Abomination, Terrifying Titan",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Wonder Man, Hollywood Hero",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Heroes' Hangout",
+          "qty": 1,
+          "type": "Sorcery"
+        },
+        {
+          "name": "Vision of Love",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "HULK SMASH!",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Inspired Fire",
+          "qty": 1,
+          "type": "Instant"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Bluff",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Mountain",
+          "qty": 7,
+          "type": "Land"
+        }
+      ]
+    },
+    {
+      "id": "fearless",
+      "name": "Fearless",
+      "group": "R",
+      "colors": [
+        "R"
+      ],
+      "description": "Have no fear as you damage yourself for great gain.",
+      "cards": [
+        {
+          "name": "Unlucky Witness",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Taxi Driver",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Stick, Fearless Mentor",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Daredevil, Fearless Fighter",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Jessica Jones, Private Eye",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Elektra, Femme Fatale",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Stegron the Dinosaur Man",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Blazing Crescendo",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Daredevil's Billy Club",
+          "qty": 1,
+          "type": "Artifact"
+        },
+        {
+          "name": "HULK SMASH!",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Hire a Crew",
+          "qty": 1,
+          "type": "Instant"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Fogwell's Gym",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Thriving Bluff",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Mountain",
+          "qty": 7,
+          "type": "Land"
+        }
+      ]
+    },
+    {
+      "id": "heroes-for-hire",
+      "name": "Heroes for Hire",
+      "group": "R",
+      "colors": [
+        "R"
+      ],
+      "description": "Fight Villains and get paid. Earn Treasure to spend on mana and other rewards.",
+      "cards": [
+        {
+          "name": "Stark Industries Executive",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "K'un-Lun Warrior",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Misty Knight, Hero for Hire",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Iron Fist, Hero for Hire",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Contract Hero",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Jessica Jones, Private Eye",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Luke Cage, Hero for Hire",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Red Hulk",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Bionic Blow",
+          "qty": 1,
+          "type": "Sorcery"
+        },
+        {
+          "name": "Big Score",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Heroes for Hire",
+          "qty": 1,
+          "type": "Enchantment"
+        },
+        {
+          "name": "Marvelous Melee",
+          "qty": 1,
+          "type": "Instant"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Bluff",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Mountain",
+          "qty": 7,
+          "type": "Land"
+        }
+      ]
+    },
+    {
+      "id": "runaways",
+      "name": "Runaways",
+      "group": "R",
+      "colors": [
+        "R"
+      ],
+      "description": "Cast your spells from exile to live like a true Runaway.",
+      "cards": [
+        {
+          "name": "Chase Stein, Runaway",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Alex Wilder, Runaway",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Molly Hayes, Runaway",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Gert and Old Lace, Runaways",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Karolina Dean, Runaway",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Nico Minoru, Runaway",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Victor Mancha, Runaway",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Shock",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Blazing Crescendo",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Hex Magic",
+          "qty": 1,
+          "type": "Sorcery"
+        },
+        {
+          "name": "Crossover Collaboration",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Marvelous Melee",
+          "qty": 1,
+          "type": "Instant"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Bluff",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Mountain",
+          "qty": 7,
+          "type": "Land"
+        }
+      ]
+    },
+    {
+      "id": "scarlet",
+      "name": "Scarlet",
+      "group": "R",
+      "colors": [
+        "R"
+      ],
+      "description": "Cast a storm of spells in one turn with the Scarlet Witch and Vision in play.",
+      "cards": [
+        {
+          "name": "Stark Industries Executive",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Loki Laufeyson",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Speed, Young Avenger",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Molten Lavamancer",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Wiccan, Young Avenger",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "The Vision and Scarlet Witch",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Kree Sentinel",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Lightning Bolt",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Vision of Love",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Grapeshot",
+          "qty": 1,
+          "type": "Sorcery"
+        },
+        {
+          "name": "Hex Magic",
+          "qty": 1,
+          "type": "Sorcery"
+        },
+        {
+          "name": "Wanda's Vision",
+          "qty": 1,
+          "type": "Enchantment"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Bluff",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Mountain",
+          "qty": 7,
+          "type": "Land"
+        }
+      ]
+    },
+    {
+      "id": "speedy",
+      "name": "Speedy",
+      "group": "R",
+      "colors": [
+        "R"
+      ],
+      "description": "Use haste to attack quickly and attack relentlessly.",
+      "cards": [
+        {
+          "name": "Masked Meower",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Quicksilver, Brash Blur",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Taxi Driver",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Speed, Young Avenger",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Whirlwind, Killer Cyclone",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Volcanic Villain",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "The Whizzer, Classic Speedster",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Living Lightning, Charged Up",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Super Speed",
+          "qty": 1,
+          "type": "Enchantment"
+        },
+        {
+          "name": "Pick Up the Pace",
+          "qty": 1,
+          "type": "Enchantment"
+        },
+        {
+          "name": "Lightning Strike",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Marvelous Melee",
+          "qty": 1,
+          "type": "Instant"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Bluff",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Mountain",
+          "qty": 7,
+          "type": "Land"
+        }
+      ]
+    },
+    {
+      "id": "spider-verse",
+      "name": "Spider-Verse",
+      "group": "R",
+      "colors": [
+        "R"
+      ],
+      "description": "Unite the Spider-Verse! Discard cards to unleash their potential.",
+      "cards": [
+        {
+          "name": "Masked Meower",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Hobgoblin, Mantled Marauder",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Lady Spider, Maybelle Reilly",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Spider-Gwen, Free Spirit",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Spider-Man, New Champion",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Iceman and Firestar",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Astonishing Spider-Man",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Stegron the Dinosaur Man",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Romantic Rendezvous",
+          "qty": 1,
+          "type": "Sorcery"
+        },
+        {
+          "name": "Daily Bugle Newspaper",
+          "qty": 1,
+          "type": "Artifact"
+        },
+        {
+          "name": "Wisecrack",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Marvelous Melee",
+          "qty": 1,
+          "type": "Instant"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Bluff",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Fogwell's Gym",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Mountain",
+          "qty": 6,
+          "type": "Land"
+        }
+      ]
+    },
+    {
+      "id": "thor",
+      "name": "Thor",
+      "group": "R",
+      "colors": [
+        "R"
+      ],
+      "description": "Burn your foes with direct damage using Thor's mighty arsenal.",
+      "cards": [
+        {
+          "name": "K'un-Lun Warrior",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Loki Laufeyson",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Sif's Spearmaster",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Molten Lavamancer",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Crimson Operative",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Thor, Asgard's Avenger",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Kree Sentinel",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Asgardian Inspiration",
+          "qty": 1,
+          "type": "Sorcery"
+        },
+        {
+          "name": "Lightning Bolt",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Lightning Strike",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Origin of Thor",
+          "qty": 1,
+          "type": "Enchantment"
+        },
+        {
+          "name": "Mjölnir's Might",
+          "qty": 1,
+          "type": "Sorcery"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Bluff",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Mountain",
+          "qty": 7,
+          "type": "Land"
+        }
+      ]
+    },
+    {
+      "id": "vehicles",
+      "name": "Vehicles",
+      "group": "R",
+      "colors": [
+        "R"
+      ],
+      "description": "Crew a fleet of Vehicles and you're on the road to victory!",
+      "cards": [
+        {
+          "name": "Intrepid Ace",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "HYDRA Assault Robot",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Extremis Elite",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Taxi Driver",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Machinesmith Automaton",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Bullseye, Death Dealer",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Captain America's Motorcycle",
+          "qty": 1,
+          "type": "Artifact"
+        },
+        {
+          "name": "Big Wheel",
+          "qty": 1,
+          "type": "Artifact"
+        },
+        {
+          "name": "S.H.I.E.L.D. Helicarrier",
+          "qty": 1,
+          "type": "Artifact"
+        },
+        {
+          "name": "Sky Cycle",
+          "qty": 1,
+          "type": "Artifact"
+        },
+        {
+          "name": "The Thanos-Copter",
+          "qty": 1,
+          "type": "Artifact"
+        },
+        {
+          "name": "Truck Toss",
+          "qty": 1,
+          "type": "Instant"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Bluff",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Mountain",
+          "qty": 7,
+          "type": "Land"
+        }
+      ]
+    },
+    {
+      "id": "young-avengers",
+      "name": "Young Avengers",
+      "group": "R",
+      "colors": [
+        "R"
+      ],
+      "description": "Assemble the Young Avengers and enable their abilities with noncreature spells.",
+      "cards": [
+        {
+          "name": "Stature, Young Avenger",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Speed, Young Avenger",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Patriot, Young Avenger",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Iron Lad, Young Avenger",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Wiccan, Young Avenger",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Hawkeye, Young Avenger",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Hulkling, Young Avenger",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Hawkeye's Bow",
+          "qty": 1,
+          "type": "Artifact"
+        },
+        {
+          "name": "Team Tactics",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Lightning Strike",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Crossover Collaboration",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Marvelous Melee",
+          "qty": 1,
+          "type": "Instant"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Bluff",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Mountain",
+          "qty": 7,
+          "type": "Land"
+        }
+      ]
+    }
+  ]
+}

@@ -1,1 +1,842 @@
-{"collection":"Magic: The Gathering | Marvel Super Heroes Jumpstart","setCode":"MSH","group":"U","decks":[{"id":"analyzed","name":"Analyzed","group":"U","colors":["U"],"description":"Cast noncreature spells with the help of your Robot allies.","cards":[{"name":"Virtual Assistant","qty":1},{"name":"TVA Bureaucrat","qty":1},{"name":"Viv Vision, Teen Synthezoid","qty":1},{"name":"Echo, Perceptive Prodigy","qty":1},{"name":"Machine Man, Model X-51","qty":1},{"name":"Victor Mancha, Runaway","qty":1},{"name":"Vision, Spectral Synthezoid","qty":1},{"name":"We Say Thee Nay!","qty":1},{"name":"Quantum Reduction","qty":1},{"name":"Frozen in Ice","qty":1},{"name":"Timeline Inquiry","qty":1},{"name":"Atlantis Attacks","qty":1}],"lands":[{"name":"Thriving Isle","qty":1},{"name":"Island","qty":7}]},{"id":"atlantis","name":"Atlantis","group":"U","colors":["U"],"description":"Draw extra cards to unleash the full potential of your Merfolk.","cards":[{"name":"Mist-Cloaked Herald","qty":1},{"name":"Daughter of the Deep","qty":1},{"name":"Atlantean Skirmisher","qty":1},{"name":"Atlantean Cavalry","qty":1},{"name":"Namora, the Sea Queen","qty":1},{"name":"Attuma, Atlantean Warlord","qty":1},{"name":"Shipwreck Patrol","qty":1},{"name":"Namor, Scourge of the Seas","qty":1},{"name":"Quantum Reduction","qty":1},{"name":"Unstable Experiment","qty":1},{"name":"Frozen in Ice","qty":1},{"name":"Atlantis Attacks","qty":1}],"lands":[{"name":"Thriving Isle","qty":1},{"name":"Island","qty":7}]},{"id":"blink","name":"Blink","group":"U","colors":["U"],"description":"Trigger your \"enters\" and \"leaves\" abilities by popping in and out of the battlefield.","cards":[{"name":"Shi'ar Soldier","qty":1},{"name":"Mob Lookout","qty":1},{"name":"Imperial Cosmographer","qty":1},{"name":"S.H.I.E.L.D. Deployment Drone","qty":1},{"name":"Justice, Vance Astrovik","qty":1},{"name":"Victor Timely, Wily Tycoon","qty":1},{"name":"Shipwreck Patrol","qty":1},{"name":"Silver Surfer, Cosmic Voyager","qty":1},{"name":"Spaceshift","qty":1},{"name":"We Say Thee Nay!","qty":1},{"name":"Collector's Case","qty":1},{"name":"Dismissive Denial","qty":1}],"lands":[{"name":"Thriving Isle","qty":1},{"name":"Island","qty":7}]},{"id":"conniving","name":"Conniving","group":"U","colors":["U"],"description":"Achieve devious rewards for drawing and discarding extra cards.","cards":[{"name":"Kid Loki","qty":1},{"name":"Mob Lookout","qty":1},{"name":"Flying Octobot","qty":1},{"name":"Graviton, Fundamental Force","qty":1},{"name":"Doc Ock's Henchmen","qty":1},{"name":"Tiger Shark, Abyssal Hunter","qty":1},{"name":"Leader, Super-Genius","qty":1},{"name":"Doc Ock, Sinister Scientist","qty":1},{"name":"Unstable Experiment","qty":1},{"name":"Mysterio's Mirage","qty":1},{"name":"Trickster's Stratagem","qty":1},{"name":"Dismissive Denial","qty":1}],"lands":[{"name":"Thriving Isle","qty":1},{"name":"Villainous Hideout","qty":1},{"name":"Island","qty":6}]},{"id":"geniuses","name":"Geniuses","group":"U","colors":["U"],"description":"Assist Marvel's greatest minds by drawing two cards in a single turn.","cards":[{"name":"Kid Loki","qty":1},{"name":"Bold Biochemist","qty":1},{"name":"Brawn, Amadeus Cho","qty":1},{"name":"Shuri, Vibranium Technologist","qty":1},{"name":"Ant-Man, Reformed Rogue","qty":1},{"name":"Beast, Erudite Aerialist","qty":1},{"name":"Blue Marvel, Adam Brashear","qty":1},{"name":"Reed Richards, Smartest Man","qty":1},{"name":"Super Intelligence","qty":1},{"name":"Futurist Forge","qty":1},{"name":"Frozen in Ice","qty":1},{"name":"Fantastic Bounce","qty":1}],"lands":[{"name":"Thriving Isle","qty":1},{"name":"Island","qty":7}]},{"id":"iron-man","name":"Iron Man","group":"U","colors":["U"],"description":"Churn out artifacts with the industrial might of Stark Industries.","cards":[{"name":"Hydraulic Helper","qty":1},{"name":"Rescue, Pepper Potts","qty":1},{"name":"S.H.I.E.L.D. Deployment Drone","qty":1},{"name":"Iron Lad, Young Avenger","qty":1},{"name":"War Machine, James Rhodes","qty":1},{"name":"Iron Man, Bleeding Edge","qty":1},{"name":"Happy Hogan, Bodyguard","qty":1},{"name":"Iron Suitcase","qty":1},{"name":"Collector's Case","qty":1},{"name":"Futurist Forge","qty":1},{"name":"I Am Iron Man","qty":1},{"name":"Origin of Iron Man","qty":1}],"lands":[{"name":"Thriving Isle","qty":1},{"name":"Island","qty":7}]},{"id":"kang-dynasty","name":"Kang Dynasty","group":"U","colors":["U"],"description":"Channel time magic, casting and flashing back noncreature spells.","cards":[{"name":"Bold Biochemist","qty":1},{"name":"TVA Bureaucrat","qty":1},{"name":"S.H.I.E.L.D. Deployment Drone","qty":1},{"name":"Iron Lad, Young Avenger","qty":1},{"name":"Immortus, Master of Eternity","qty":1},{"name":"Victor Timely, Wily Tycoon","qty":1},{"name":"Pharaoh Rama-Tut","qty":1},{"name":"Think Twice","qty":1},{"name":"Depower","qty":1},{"name":"Timeline Inquiry","qty":1},{"name":"Multiversal Recruitment","qty":1},{"name":"Time Warp","qty":1}],"lands":[{"name":"Thriving Isle","qty":1},{"name":"Island","qty":7}]},{"id":"pym-particles","name":"Pym Particles","group":"U","colors":["U"],"description":"Shrink the power of opposing threats.","cards":[{"name":"Aerial Doombot","qty":1},{"name":"Bold Biochemist","qty":1},{"name":"Ant-Man's Air Force","qty":1},{"name":"Ant-Man, Reformed Rogue","qty":1},{"name":"Wasp, Shrinking Savior","qty":1},{"name":"A.I.M. Scientists","qty":1},{"name":"Giant-Sized Flying Ant","qty":1},{"name":"Pym Particles","qty":1},{"name":"Super Suit","qty":1},{"name":"Quantum Reduction","qty":1},{"name":"Depower","qty":1},{"name":"Robotics Mastery","qty":1}],"lands":[{"name":"Thriving Isle","qty":1},{"name":"Island","qty":7}]},{"id":"soaring","name":"Soaring","group":"U","colors":["U"],"description":"Take to the skies with a host of superpowered fliers.","cards":[{"name":"Aerial Doombot","qty":1},{"name":"Rescue, Pepper Potts","qty":1},{"name":"Flying Drone","qty":1},{"name":"Namora, the Sea Queen","qty":1},{"name":"S.H.I.E.L.D. Deployment Drone","qty":1},{"name":"Justice, Vance Astrovik","qty":1},{"name":"Vulture, Feathered Fiend","qty":1},{"name":"Falcon, Winged Wonder","qty":1},{"name":"Whoosh!","qty":1},{"name":"Falcon's Wing Harness","qty":1},{"name":"I Am Iron Man","qty":1},{"name":"Dismissive Denial","qty":1}],"lands":[{"name":"Thriving Isle","qty":1},{"name":"Island","qty":7}]},{"id":"tricksters","name":"Tricksters","group":"U","colors":["U"],"description":"Clone your creatures and immerse your enemies in Loki's illusions.","cards":[{"name":"Kid Loki","qty":1},{"name":"Living Lies of Loki","qty":1},{"name":"Ant-Man's Air Force","qty":1},{"name":"Impossible Man","qty":1},{"name":"Ghost, Spectral Saboteur","qty":1},{"name":"Loki, Lord of Misrule","qty":1},{"name":"A.I.M. Scientists","qty":1},{"name":"We Say Thee Nay!","qty":1},{"name":"Quantum Reduction","qty":1},{"name":"Trickster's Stratagem","qty":1},{"name":"Multiversal Recruitment","qty":1},{"name":"The Clone Saga","qty":1}],"lands":[{"name":"Thriving Isle","qty":1},{"name":"Island","qty":7}]}]}
+{
+  "collection": "Magic: The Gathering | Marvel Super Heroes Jumpstart",
+  "setCode": "MSH",
+  "group": "U",
+  "decks": [
+    {
+      "id": "analyzed",
+      "name": "Analyzed",
+      "group": "U",
+      "colors": [
+        "U"
+      ],
+      "description": "Cast noncreature spells with the help of your Robot allies.",
+      "cards": [
+        {
+          "name": "Virtual Assistant",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "TVA Bureaucrat",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Viv Vision, Teen Synthezoid",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Echo, Perceptive Prodigy",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Machine Man, Model X-51",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Victor Mancha, Runaway",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Vision, Spectral Synthezoid",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "We Say Thee Nay!",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Quantum Reduction",
+          "qty": 1,
+          "type": "Enchantment"
+        },
+        {
+          "name": "Frozen in Ice",
+          "qty": 1,
+          "type": "Enchantment"
+        },
+        {
+          "name": "Timeline Inquiry",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Atlantis Attacks",
+          "qty": 1,
+          "type": "Sorcery"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Isle",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Island",
+          "qty": 7,
+          "type": "Land"
+        }
+      ]
+    },
+    {
+      "id": "atlantis",
+      "name": "Atlantis",
+      "group": "U",
+      "colors": [
+        "U"
+      ],
+      "description": "Draw extra cards to unleash the full potential of your Merfolk.",
+      "cards": [
+        {
+          "name": "Mist-Cloaked Herald",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Daughter of the Deep",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Atlantean Skirmisher",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Atlantean Cavalry",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Namora, the Sea Queen",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Attuma, Atlantean Warlord",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Shipwreck Patrol",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Namor, Scourge of the Seas",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Quantum Reduction",
+          "qty": 1,
+          "type": "Enchantment"
+        },
+        {
+          "name": "Unstable Experiment",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Frozen in Ice",
+          "qty": 1,
+          "type": "Enchantment"
+        },
+        {
+          "name": "Atlantis Attacks",
+          "qty": 1,
+          "type": "Sorcery"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Isle",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Island",
+          "qty": 7,
+          "type": "Land"
+        }
+      ]
+    },
+    {
+      "id": "blink",
+      "name": "Blink",
+      "group": "U",
+      "colors": [
+        "U"
+      ],
+      "description": "Trigger your \"enters\" and \"leaves\" abilities by popping in and out of the battlefield.",
+      "cards": [
+        {
+          "name": "Shi'ar Soldier",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Mob Lookout",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Imperial Cosmographer",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "S.H.I.E.L.D. Deployment Drone",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Justice, Vance Astrovik",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Victor Timely, Wily Tycoon",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Shipwreck Patrol",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Silver Surfer, Cosmic Voyager",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Spaceshift",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "We Say Thee Nay!",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Collector's Case",
+          "qty": 1,
+          "type": "Artifact"
+        },
+        {
+          "name": "Dismissive Denial",
+          "qty": 1,
+          "type": "Instant"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Isle",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Island",
+          "qty": 7,
+          "type": "Land"
+        }
+      ]
+    },
+    {
+      "id": "conniving",
+      "name": "Conniving",
+      "group": "U",
+      "colors": [
+        "U"
+      ],
+      "description": "Achieve devious rewards for drawing and discarding extra cards.",
+      "cards": [
+        {
+          "name": "Kid Loki",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Mob Lookout",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Flying Octobot",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Graviton, Fundamental Force",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Doc Ock's Henchmen",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Tiger Shark, Abyssal Hunter",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Leader, Super-Genius",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Doc Ock, Sinister Scientist",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Unstable Experiment",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Mysterio's Mirage",
+          "qty": 1,
+          "type": "Enchantment"
+        },
+        {
+          "name": "Trickster's Stratagem",
+          "qty": 1,
+          "type": "Sorcery"
+        },
+        {
+          "name": "Dismissive Denial",
+          "qty": 1,
+          "type": "Instant"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Isle",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Villainous Hideout",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Island",
+          "qty": 6,
+          "type": "Land"
+        }
+      ]
+    },
+    {
+      "id": "geniuses",
+      "name": "Geniuses",
+      "group": "U",
+      "colors": [
+        "U"
+      ],
+      "description": "Assist Marvel's greatest minds by drawing two cards in a single turn.",
+      "cards": [
+        {
+          "name": "Kid Loki",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Bold Biochemist",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Brawn, Amadeus Cho",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Shuri, Vibranium Technologist",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Ant-Man, Reformed Rogue",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Beast, Erudite Aerialist",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Blue Marvel, Adam Brashear",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Reed Richards, Smartest Man",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Super Intelligence",
+          "qty": 1,
+          "type": "Enchantment"
+        },
+        {
+          "name": "Futurist Forge",
+          "qty": 1,
+          "type": "Artifact"
+        },
+        {
+          "name": "Frozen in Ice",
+          "qty": 1,
+          "type": "Enchantment"
+        },
+        {
+          "name": "Fantastic Bounce",
+          "qty": 1,
+          "type": "Sorcery"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Isle",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Island",
+          "qty": 7,
+          "type": "Land"
+        }
+      ]
+    },
+    {
+      "id": "iron-man",
+      "name": "Iron Man",
+      "group": "U",
+      "colors": [
+        "U"
+      ],
+      "description": "Churn out artifacts with the industrial might of Stark Industries.",
+      "cards": [
+        {
+          "name": "Hydraulic Helper",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Rescue, Pepper Potts",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "S.H.I.E.L.D. Deployment Drone",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Iron Lad, Young Avenger",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "War Machine, James Rhodes",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Iron Man, Bleeding Edge",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Happy Hogan, Bodyguard",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Iron Suitcase",
+          "qty": 1,
+          "type": "Artifact"
+        },
+        {
+          "name": "Collector's Case",
+          "qty": 1,
+          "type": "Artifact"
+        },
+        {
+          "name": "Futurist Forge",
+          "qty": 1,
+          "type": "Artifact"
+        },
+        {
+          "name": "I Am Iron Man",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Origin of Iron Man",
+          "qty": 1,
+          "type": "Enchantment"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Isle",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Island",
+          "qty": 7,
+          "type": "Land"
+        }
+      ]
+    },
+    {
+      "id": "kang-dynasty",
+      "name": "Kang Dynasty",
+      "group": "U",
+      "colors": [
+        "U"
+      ],
+      "description": "Channel time magic, casting and flashing back noncreature spells.",
+      "cards": [
+        {
+          "name": "Bold Biochemist",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "TVA Bureaucrat",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "S.H.I.E.L.D. Deployment Drone",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Iron Lad, Young Avenger",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Immortus, Master of Eternity",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Victor Timely, Wily Tycoon",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Pharaoh Rama-Tut",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Think Twice",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Depower",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Timeline Inquiry",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Multiversal Recruitment",
+          "qty": 1,
+          "type": "Sorcery"
+        },
+        {
+          "name": "Time Warp",
+          "qty": 1,
+          "type": "Sorcery"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Isle",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Island",
+          "qty": 7,
+          "type": "Land"
+        }
+      ]
+    },
+    {
+      "id": "pym-particles",
+      "name": "Pym Particles",
+      "group": "U",
+      "colors": [
+        "U"
+      ],
+      "description": "Shrink the power of opposing threats.",
+      "cards": [
+        {
+          "name": "Aerial Doombot",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Bold Biochemist",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Ant-Man's Air Force",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Ant-Man, Reformed Rogue",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Wasp, Shrinking Savior",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "A.I.M. Scientists",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Giant-Sized Flying Ant",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Pym Particles",
+          "qty": 1,
+          "type": "Sorcery"
+        },
+        {
+          "name": "Super Suit",
+          "qty": 1,
+          "type": "Artifact"
+        },
+        {
+          "name": "Quantum Reduction",
+          "qty": 1,
+          "type": "Enchantment"
+        },
+        {
+          "name": "Depower",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Robotics Mastery",
+          "qty": 1,
+          "type": "Enchantment"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Isle",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Island",
+          "qty": 7,
+          "type": "Land"
+        }
+      ]
+    },
+    {
+      "id": "soaring",
+      "name": "Soaring",
+      "group": "U",
+      "colors": [
+        "U"
+      ],
+      "description": "Take to the skies with a host of superpowered fliers.",
+      "cards": [
+        {
+          "name": "Aerial Doombot",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Rescue, Pepper Potts",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Flying Drone",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Namora, the Sea Queen",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "S.H.I.E.L.D. Deployment Drone",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Justice, Vance Astrovik",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Vulture, Feathered Fiend",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Falcon, Winged Wonder",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Whoosh!",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Falcon's Wing Harness",
+          "qty": 1,
+          "type": "Artifact"
+        },
+        {
+          "name": "I Am Iron Man",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Dismissive Denial",
+          "qty": 1,
+          "type": "Instant"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Isle",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Island",
+          "qty": 7,
+          "type": "Land"
+        }
+      ]
+    },
+    {
+      "id": "tricksters",
+      "name": "Tricksters",
+      "group": "U",
+      "colors": [
+        "U"
+      ],
+      "description": "Clone your creatures and immerse your enemies in Loki's illusions.",
+      "cards": [
+        {
+          "name": "Kid Loki",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Living Lies of Loki",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Ant-Man's Air Force",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Impossible Man",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Ghost, Spectral Saboteur",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Loki, Lord of Misrule",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "A.I.M. Scientists",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "We Say Thee Nay!",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Quantum Reduction",
+          "qty": 1,
+          "type": "Enchantment"
+        },
+        {
+          "name": "Trickster's Stratagem",
+          "qty": 1,
+          "type": "Sorcery"
+        },
+        {
+          "name": "Multiversal Recruitment",
+          "qty": 1,
+          "type": "Sorcery"
+        },
+        {
+          "name": "The Clone Saga",
+          "qty": 1,
+          "type": "Enchantment"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Isle",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Island",
+          "qty": 7,
+          "type": "Land"
+        }
+      ]
+    }
+  ]
+}

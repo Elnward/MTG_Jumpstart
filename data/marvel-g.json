@@ -1,1 +1,847 @@
-{"collection":"Magic: The Gathering | Marvel Super Heroes Jumpstart","setCode":"MSH","group":"G","decks":[{"id":"animal","name":"Animal","group":"G","colors":["G"],"description":"Gain life to trigger the helpful abilities of your furry friends.","cards":[{"name":"Lucky the Pizza Dog","qty":1},{"name":"Guerrilla Gorilla","qty":1},{"name":"Tigra, Feline Fury","qty":1},{"name":"Wakandan Tusker","qty":1},{"name":"Ant-Man's Army","qty":1},{"name":"Tippy-Toe, Terrific Partner","qty":1},{"name":"Pet Avengers","qty":1},{"name":"Savage Land Dinosaur","qty":1},{"name":"Go Nuts!","qty":1},{"name":"Scout the City","qty":1},{"name":"Beast Mode","qty":1},{"name":"Heroic Feast","qty":1}],"lands":[{"name":"Thriving Grove","qty":1},{"name":"Forest","qty":7}]},{"id":"great-lakes-avengers","name":"Great Lakes Avengers","group":"G","colors":["G"],"description":"Unique icons like Flatman and Squirrel Girl dominate the battlefield!","cards":[{"name":"Guerrilla Gorilla","qty":1},{"name":"Doorman","qty":1},{"name":"Mister Immortal","qty":1},{"name":"Tippy-Toe, Terrific Partner","qty":1},{"name":"Flatman","qty":1},{"name":"The Unbeatable Squirrel Girl","qty":1},{"name":"Big Bertha","qty":1},{"name":"Savage Land Dinosaur","qty":1},{"name":"Rapid Rescue","qty":1},{"name":"Go Nuts!","qty":1},{"name":"Beast Mode","qty":1},{"name":"Training Regimen","qty":1}],"lands":[{"name":"Thriving Grove","qty":1},{"name":"Forest","qty":7}]},{"id":"incredible","name":"Incredible","group":"G","colors":["G"],"description":"Get angry! Make your +1/+1 counters double turn over turn.","cards":[{"name":"Brawn, Amadeus Cho","qty":1},{"name":"Guerrilla Gorilla","qty":1},{"name":"She-Hulk, Attorney-at-Law","qty":1},{"name":"Hulk, Strongest There Is","qty":1},{"name":"Abomination, Terrifying Titan","qty":1},{"name":"Doc Samson, Super Psychiatrist","qty":1},{"name":"Savage Land Dinosaur","qty":1},{"name":"Giant Growth","qty":1},{"name":"Hulk's Thunderclap","qty":1},{"name":"Origin of the Hulk","qty":1},{"name":"Go Nuts!","qty":1},{"name":"Super Strength","qty":1}],"lands":[{"name":"Thriving Grove","qty":1},{"name":"Forest","qty":7}]},{"id":"rampaging","name":"Rampaging","group":"G","colors":["G"],"description":"Trample your enemies with growing +1/+1 counters!","cards":[{"name":"Serpent Specialist","qty":1},{"name":"Knight of Wundagore","qty":1},{"name":"Bushmaster, Coiled Henchman","qty":1},{"name":"Titania, Rugged Rumbler","qty":1},{"name":"Powerful Broker","qty":1},{"name":"Mister Hyde, Monster Within","qty":1},{"name":"Atlas, Sizable Stooge","qty":1},{"name":"Rhino, Terrible Trampler","qty":1},{"name":"Rhino's Rampage","qty":1},{"name":"Beast Mode","qty":1},{"name":"Colossal Collision","qty":1},{"name":"Claim the Kingdom","qty":1}],"lands":[{"name":"Thriving Grove","qty":1},{"name":"Forest","qty":7}]},{"id":"savage-lands","name":"Savage Lands","group":"G","colors":["G"],"description":"Reign over the Savage Lands with Dinosaurs and other denizens.","cards":[{"name":"Reptil, Dinomorpher","qty":1},{"name":"Lurking Lizards","qty":1},{"name":"Moon-Boy, Dino Rider","qty":1},{"name":"Gert and Old Lace, Runaways","qty":1},{"name":"Devil Dinosaur","qty":1},{"name":"Ka-Zar of the Savage Land","qty":1},{"name":"Sauron, Dino Devotee","qty":1},{"name":"Savage Land Dinosaur","qty":1},{"name":"Commune with Dinosaurs","qty":1},{"name":"Go Nuts!","qty":1},{"name":"Accelerated Evolution","qty":1},{"name":"Terrific Team-Up","qty":1}],"lands":[{"name":"Thriving Grove","qty":1},{"name":"Savage Lands","qty":1},{"name":"Forest","qty":6}]},{"id":"tenacious","name":"Tenacious","group":"G","colors":["G"],"description":"Mill away your library. The larger your graveyard, the stronger your spells become.","cards":[{"name":"Undercover Skrull","qty":1},{"name":"White Tiger, Amulet Keeper","qty":1},{"name":"Hellcat, Undying Vigilante","qty":1},{"name":"Gert and Old Lace, Runaways","qty":1},{"name":"Voracious Brood","qty":1},{"name":"Pet Avengers","qty":1},{"name":"Savage Land Dinosaur","qty":1},{"name":"Return of the Mole Man","qty":1},{"name":"Scout the City","qty":1},{"name":"Call Damage Control","qty":1},{"name":"Accelerated Evolution","qty":1},{"name":"Punishing Punch","qty":1}],"lands":[{"name":"Thriving Grove","qty":1},{"name":"Terramorphic Expanse","qty":1},{"name":"Forest","qty":6}]},{"id":"towering","name":"Towering","group":"G","colors":["G"],"description":"Creatures with power 4 or greater are even better with Giant-Man's aid.","cards":[{"name":"Reptil, Dinomorpher","qty":1},{"name":"Stature, Young Avenger","qty":1},{"name":"Goliath, Mass Manipulator","qty":1},{"name":"Ms. Marvel, Elastic Ally","qty":1},{"name":"Ant-Man, Reformed Rogue","qty":1},{"name":"Atlas, Sizable Stooge","qty":1},{"name":"Giant-Man, Gargantuan Genius","qty":1},{"name":"Spider-Rex, Daring Dino","qty":1},{"name":"Giant Growth","qty":1},{"name":"Rapid Rescue","qty":1},{"name":"Terrific Team-Up","qty":1},{"name":"Colossal Collision","qty":1}],"lands":[{"name":"Thriving Grove","qty":1},{"name":"Forest","qty":7}]},{"id":"trained","name":"Trained","group":"G","colors":["G"],"description":"Power-up your creatures and stack up +1/+1 counters.","cards":[{"name":"Serpent Specialist","qty":1},{"name":"White Tiger, Ava Ayala","qty":1},{"name":"Undercover Skrull","qty":1},{"name":"Hercules, Prince of Power","qty":1},{"name":"She-Hulk, Attorney-at-Law","qty":1},{"name":"Pet Avengers","qty":1},{"name":"Shang-Chi, Martial Mentor","qty":1},{"name":"Wakandan Royal Guard","qty":1},{"name":"Advancing the Spirit","qty":1},{"name":"Restorative Technique","qty":1},{"name":"Punishing Punch","qty":1},{"name":"Colossal Collision","qty":1}],"lands":[{"name":"Thriving Grove","qty":1},{"name":"Forest","qty":7}]},{"id":"uncanny","name":"Uncanny","group":"G","colors":["G"],"description":"Unite the X-Men and other Mutants to survive—and thrive!","cards":[{"name":"Black Tom Cassidy","qty":1},{"name":"Darwin, Adaptive Mutant","qty":1},{"name":"Wolfsbane, Highland Hero","qty":1},{"name":"X-23, Deadly Weapon","qty":1},{"name":"Wolverine, Claws Out","qty":1},{"name":"Beast, Erudite Aerialist","qty":1},{"name":"Colossus, Steel Stalwart","qty":1},{"name":"Storm, Shaker of Skies","qty":1},{"name":"Go Nuts!","qty":1},{"name":"Accelerated Evolution","qty":1},{"name":"Colossal Collision","qty":1},{"name":"Training Regimen","qty":1}],"lands":[{"name":"Thriving Grove","qty":1},{"name":"Forest","qty":7}]},{"id":"wild","name":"Wild","group":"G","colors":["G"],"description":"Play multiple lands every turn to maximize your wild allies.","cards":[{"name":"Hellcat, Undying Vigilante","qty":1},{"name":"White Tiger, Amulet Keeper","qty":1},{"name":"The Fabulous Frog-Man","qty":1},{"name":"Gert and Old Lace, Runaways","qty":1},{"name":"Mole Man, Moloid Master","qty":1},{"name":"Hit-Monkey","qty":1},{"name":"Ka-Zar of the Savage Land","qty":1},{"name":"Claim the Kingdom","qty":1},{"name":"Accelerated Evolution","qty":1},{"name":"Restorative Technique","qty":1},{"name":"Colossal Collision","qty":1}],"lands":[{"name":"Terramorphic Expanse","qty":1},{"name":"Thriving Grove","qty":1},{"name":"Forest","qty":7}]}]}
+{
+  "collection": "Magic: The Gathering | Marvel Super Heroes Jumpstart",
+  "setCode": "MSH",
+  "group": "G",
+  "decks": [
+    {
+      "id": "animal",
+      "name": "Animal",
+      "group": "G",
+      "colors": [
+        "G"
+      ],
+      "description": "Gain life to trigger the helpful abilities of your furry friends.",
+      "cards": [
+        {
+          "name": "Lucky the Pizza Dog",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Guerrilla Gorilla",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Tigra, Feline Fury",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Wakandan Tusker",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Ant-Man's Army",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Tippy-Toe, Terrific Partner",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Pet Avengers",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Savage Land Dinosaur",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Go Nuts!",
+          "qty": 1,
+          "type": "Sorcery"
+        },
+        {
+          "name": "Scout the City",
+          "qty": 1,
+          "type": "Sorcery"
+        },
+        {
+          "name": "Beast Mode",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Heroic Feast",
+          "qty": 1,
+          "type": "Enchantment"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Grove",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Forest",
+          "qty": 7,
+          "type": "Land"
+        }
+      ]
+    },
+    {
+      "id": "great-lakes-avengers",
+      "name": "Great Lakes Avengers",
+      "group": "G",
+      "colors": [
+        "G"
+      ],
+      "description": "Unique icons like Flatman and Squirrel Girl dominate the battlefield!",
+      "cards": [
+        {
+          "name": "Guerrilla Gorilla",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Doorman",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Mister Immortal",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Tippy-Toe, Terrific Partner",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Flatman",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "The Unbeatable Squirrel Girl",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Big Bertha",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Savage Land Dinosaur",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Rapid Rescue",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Go Nuts!",
+          "qty": 1,
+          "type": "Sorcery"
+        },
+        {
+          "name": "Beast Mode",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Training Regimen",
+          "qty": 1,
+          "type": "Enchantment"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Grove",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Forest",
+          "qty": 7,
+          "type": "Land"
+        }
+      ]
+    },
+    {
+      "id": "incredible",
+      "name": "Incredible",
+      "group": "G",
+      "colors": [
+        "G"
+      ],
+      "description": "Get angry! Make your +1/+1 counters double turn over turn.",
+      "cards": [
+        {
+          "name": "Brawn, Amadeus Cho",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Guerrilla Gorilla",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "She-Hulk, Attorney-at-Law",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Hulk, Strongest There Is",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Abomination, Terrifying Titan",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Doc Samson, Super Psychiatrist",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Savage Land Dinosaur",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Giant Growth",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Hulk's Thunderclap",
+          "qty": 1,
+          "type": "Sorcery"
+        },
+        {
+          "name": "Origin of the Hulk",
+          "qty": 1,
+          "type": "Enchantment"
+        },
+        {
+          "name": "Go Nuts!",
+          "qty": 1,
+          "type": "Sorcery"
+        },
+        {
+          "name": "Super Strength",
+          "qty": 1,
+          "type": "Enchantment"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Grove",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Forest",
+          "qty": 7,
+          "type": "Land"
+        }
+      ]
+    },
+    {
+      "id": "rampaging",
+      "name": "Rampaging",
+      "group": "G",
+      "colors": [
+        "G"
+      ],
+      "description": "Trample your enemies with growing +1/+1 counters!",
+      "cards": [
+        {
+          "name": "Serpent Specialist",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Knight of Wundagore",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Bushmaster, Coiled Henchman",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Titania, Rugged Rumbler",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Powerful Broker",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Mister Hyde, Monster Within",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Atlas, Sizable Stooge",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Rhino, Terrible Trampler",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Rhino's Rampage",
+          "qty": 1,
+          "type": "Sorcery"
+        },
+        {
+          "name": "Beast Mode",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Colossal Collision",
+          "qty": 1,
+          "type": "Sorcery"
+        },
+        {
+          "name": "Claim the Kingdom",
+          "qty": 1,
+          "type": "Enchantment"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Grove",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Forest",
+          "qty": 7,
+          "type": "Land"
+        }
+      ]
+    },
+    {
+      "id": "savage-lands",
+      "name": "Savage Lands",
+      "group": "G",
+      "colors": [
+        "G"
+      ],
+      "description": "Reign over the Savage Lands with Dinosaurs and other denizens.",
+      "cards": [
+        {
+          "name": "Reptil, Dinomorpher",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Lurking Lizards",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Moon-Boy, Dino Rider",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Gert and Old Lace, Runaways",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Devil Dinosaur",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Ka-Zar of the Savage Land",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Sauron, Dino Devotee",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Savage Land Dinosaur",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Commune with Dinosaurs",
+          "qty": 1,
+          "type": "Sorcery"
+        },
+        {
+          "name": "Go Nuts!",
+          "qty": 1,
+          "type": "Sorcery"
+        },
+        {
+          "name": "Accelerated Evolution",
+          "qty": 1,
+          "type": "Enchantment"
+        },
+        {
+          "name": "Terrific Team-Up",
+          "qty": 1,
+          "type": "Instant"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Grove",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Savage Lands",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Forest",
+          "qty": 6,
+          "type": "Land"
+        }
+      ]
+    },
+    {
+      "id": "tenacious",
+      "name": "Tenacious",
+      "group": "G",
+      "colors": [
+        "G"
+      ],
+      "description": "Mill away your library. The larger your graveyard, the stronger your spells become.",
+      "cards": [
+        {
+          "name": "Undercover Skrull",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "White Tiger, Amulet Keeper",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Hellcat, Undying Vigilante",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Gert and Old Lace, Runaways",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Voracious Brood",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Pet Avengers",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Savage Land Dinosaur",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Return of the Mole Man",
+          "qty": 1,
+          "type": "Enchantment"
+        },
+        {
+          "name": "Scout the City",
+          "qty": 1,
+          "type": "Sorcery"
+        },
+        {
+          "name": "Call Damage Control",
+          "qty": 1,
+          "type": "Sorcery"
+        },
+        {
+          "name": "Accelerated Evolution",
+          "qty": 1,
+          "type": "Enchantment"
+        },
+        {
+          "name": "Punishing Punch",
+          "qty": 1,
+          "type": "Instant"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Grove",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Terramorphic Expanse",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Forest",
+          "qty": 6,
+          "type": "Land"
+        }
+      ]
+    },
+    {
+      "id": "towering",
+      "name": "Towering",
+      "group": "G",
+      "colors": [
+        "G"
+      ],
+      "description": "Creatures with power 4 or greater are even better with Giant-Man's aid.",
+      "cards": [
+        {
+          "name": "Reptil, Dinomorpher",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Stature, Young Avenger",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Goliath, Mass Manipulator",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Ms. Marvel, Elastic Ally",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Ant-Man, Reformed Rogue",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Atlas, Sizable Stooge",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Giant-Man, Gargantuan Genius",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Spider-Rex, Daring Dino",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Giant Growth",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Rapid Rescue",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Terrific Team-Up",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Colossal Collision",
+          "qty": 1,
+          "type": "Sorcery"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Grove",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Forest",
+          "qty": 7,
+          "type": "Land"
+        }
+      ]
+    },
+    {
+      "id": "trained",
+      "name": "Trained",
+      "group": "G",
+      "colors": [
+        "G"
+      ],
+      "description": "Power-up your creatures and stack up +1/+1 counters.",
+      "cards": [
+        {
+          "name": "Serpent Specialist",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "White Tiger, Ava Ayala",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Undercover Skrull",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Hercules, Prince of Power",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "She-Hulk, Attorney-at-Law",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Pet Avengers",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Shang-Chi, Martial Mentor",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Wakandan Royal Guard",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Advancing the Spirit",
+          "qty": 1,
+          "type": "Enchantment"
+        },
+        {
+          "name": "Restorative Technique",
+          "qty": 1,
+          "type": "Sorcery"
+        },
+        {
+          "name": "Punishing Punch",
+          "qty": 1,
+          "type": "Instant"
+        },
+        {
+          "name": "Colossal Collision",
+          "qty": 1,
+          "type": "Sorcery"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Grove",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Forest",
+          "qty": 7,
+          "type": "Land"
+        }
+      ]
+    },
+    {
+      "id": "uncanny",
+      "name": "Uncanny",
+      "group": "G",
+      "colors": [
+        "G"
+      ],
+      "description": "Unite the X-Men and other Mutants to survive—and thrive!",
+      "cards": [
+        {
+          "name": "Black Tom Cassidy",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Darwin, Adaptive Mutant",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Wolfsbane, Highland Hero",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "X-23, Deadly Weapon",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Wolverine, Claws Out",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Beast, Erudite Aerialist",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Colossus, Steel Stalwart",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Storm, Shaker of Skies",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Go Nuts!",
+          "qty": 1,
+          "type": "Sorcery"
+        },
+        {
+          "name": "Accelerated Evolution",
+          "qty": 1,
+          "type": "Enchantment"
+        },
+        {
+          "name": "Colossal Collision",
+          "qty": 1,
+          "type": "Sorcery"
+        },
+        {
+          "name": "Training Regimen",
+          "qty": 1,
+          "type": "Enchantment"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Thriving Grove",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Forest",
+          "qty": 7,
+          "type": "Land"
+        }
+      ]
+    },
+    {
+      "id": "wild",
+      "name": "Wild",
+      "group": "G",
+      "colors": [
+        "G"
+      ],
+      "description": "Play multiple lands every turn to maximize your wild allies.",
+      "cards": [
+        {
+          "name": "Hellcat, Undying Vigilante",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "White Tiger, Amulet Keeper",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "The Fabulous Frog-Man",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Gert and Old Lace, Runaways",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Mole Man, Moloid Master",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Hit-Monkey",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Ka-Zar of the Savage Land",
+          "qty": 1,
+          "type": "Creature"
+        },
+        {
+          "name": "Claim the Kingdom",
+          "qty": 1,
+          "type": "Enchantment"
+        },
+        {
+          "name": "Accelerated Evolution",
+          "qty": 1,
+          "type": "Enchantment"
+        },
+        {
+          "name": "Restorative Technique",
+          "qty": 1,
+          "type": "Sorcery"
+        },
+        {
+          "name": "Colossal Collision",
+          "qty": 1,
+          "type": "Sorcery"
+        }
+      ],
+      "lands": [
+        {
+          "name": "Terramorphic Expanse",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Thriving Grove",
+          "qty": 1,
+          "type": "Land"
+        },
+        {
+          "name": "Forest",
+          "qty": 7,
+          "type": "Land"
+        }
+      ]
+    }
+  ]
+}
