@@ -7,11 +7,11 @@
   --muted: #a9adb4;
   --line: #343840;
   --focus: #ffffff;
-  --r: #d85a42;
-  --u: #4596cf;
-  --w: #e7d8a8;
-  --b: #8b8293;
-  --g: #4f9b68;
+  --r: #f19b79;
+  --u: #bcdaf7;
+  --w: #fdfbce;
+  --b: #a7999e;
+  --g: #9fcba6;
   --m: #c6a453;
   --radius: 16px;
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -50,13 +50,26 @@ h1 { margin: 0; font-size: clamp(2rem, 7vw, 4.2rem); line-height: .98; letter-sp
 .section-title { display: flex; align-items: center; gap: 10px; margin: 0 0 13px; font-size: 1.3rem; }
 .section-title .count { margin-left: 2px; color: var(--muted); font-size: .8rem; font-weight: 600; }
 .mana-row { display: inline-flex; gap: 5px; align-items: center; }
-.mana { --mana: var(--m); width: 27px; height: 27px; flex: 0 0 27px; display: inline-grid; place-items: center; border: 1px solid color-mix(in srgb, var(--mana) 70%, white 12%); border-radius: 50%; background: color-mix(in srgb, var(--mana) 24%, #111); color: #fff; font-size: .8rem; font-weight: 900; line-height: 1; box-shadow: inset 0 0 0 2px rgba(0,0,0,.22); }
-.mana-W { --mana: var(--w); color: #241f15; }
-.mana-U { --mana: var(--u); }
-.mana-B { --mana: var(--b); }
-.mana-R { --mana: var(--r); }
-.mana-G { --mana: var(--g); }
-.mana-M { --mana: var(--m); }
+.mana {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex: 0 0 1em;
+  font-size: 1.55rem;
+  line-height: 1;
+  text-align: center;
+  filter: drop-shadow(0 1px 1px rgba(0,0,0,.55));
+}
+.mana-W { color: var(--w); }
+.mana-U { color: var(--u); }
+.mana-B { color: var(--b); }
+.mana-R { color: var(--r); }
+.mana-G { color: var(--g); }
+.mana-M { color: var(--m); }
+.section-title > .mana { font-size: 1.7rem; }
+.section-title > .mana-row .mana { font-size: 1.3rem; }
+.deck-card .mana { font-size: 1.4rem; }
+.detail-meta .mana { font-size: 1.45rem; }
 .deck-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr)); gap: 11px; }
 .deck-card { position: relative; display: grid; grid-template-columns: 1fr auto; gap: 9px 12px; min-height: 118px; padding: 16px 16px 15px 19px; overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius); background: linear-gradient(155deg, color-mix(in srgb, var(--accent) 7%, var(--panel)), var(--panel)); text-decoration: none; transition: transform .16s ease, border-color .16s ease, background .16s ease; }
 .deck-card::before { content: ""; position: absolute; inset: 0 auto 0 0; width: 4px; background: var(--accent); }
