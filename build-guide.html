@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171717">
+  <meta name="description" content="Kurzer Leitfaden zum Bauen eigener Jumpstart-Halfdecks.">
+  <title>Build Guide · MTG Jumpstart Cube</title>
+  <link rel="stylesheet" href="assets/mana/css/mana.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="./" aria-label="Zur Jumpstart-Übersicht">
+        <span class="brand-mark" aria-hidden="true">J</span>
+        <span><strong>MTG Jumpstart Cube</strong><small>Bibliothek &amp; Sortierhilfe</small></span>
+      </a>
+      <nav class="header-nav" aria-label="Seitennavigation">
+        <a class="proxy-link" href="./">Bibliothek</a>
+        <a class="proxy-link" href="proxy.html">QR-Karte</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="shell guide-page">
+    <section class="guide-hero">
+      <p class="eyebrow">Eigenes Halfdeck bauen</p>
+      <h1>Build Guide</h1>
+      <p class="hero-copy">Jumpstart funktioniert dann am besten, wenn jedes 20-Karten-Halfdeck allein schon einen klaren Plan verfolgt und trotzdem mit möglichst vielen anderen Halfdecks zusammenspielen kann.</p>
+    </section>
+
+    <section class="guide-grid">
+      <article class="guide-card">
+        <span class="guide-number">1</span>
+        <h2>Genau 20 Karten</h2>
+        <p>Ein Jumpstart-Booster ist ein vollständiges 20-Karten-Halfdeck inklusive Länder. Zwei Halfdecks werden zusammengemischt und ergeben direkt ein spielbares 40-Karten-Deck.</p>
+      </article>
+
+      <article class="guide-card">
+        <span class="guide-number">2</span>
+        <h2>Ein klares Thema</h2>
+        <p>Wähle eine erkennbare Identität: etwa Goblins, Reanimator, +1/+1-Marken, Artefakte oder eine Figur. Flavor und Mechanik sollten möglichst in dieselbe Richtung zeigen.</p>
+      </article>
+
+      <article class="guide-card">
+        <span class="guide-number">3</span>
+        <h2>Von allein spielbar</h2>
+        <p>Wizards beschreibt Jumpstart-Packs als Mini-Decks mit Ländern, Kreaturen, Interaktion, Karten zum Beenden einer Partie und einer vernünftigen Manakurve. Dein Halfdeck sollte deshalb nicht darauf angewiesen sein, dass das zweite Pack einen grundlegenden Bestandteil liefert.</p>
+      </article>
+
+      <article class="guide-card">
+        <span class="guide-number">4</span>
+        <h2>Mana zuerst</h2>
+        <p>Die meisten Halfdecks funktionieren am zuverlässigsten einfarbig. Plane genügend Länder ein und vermeide unnötig schwierige Farbanforderungen. Mehrfarbige Halfdecks brauchen entsprechend Fixing.</p>
+      </article>
+
+      <article class="guide-card">
+        <span class="guide-number">5</span>
+        <h2>Kurve statt Stapel</h2>
+        <p>Verteile die Zaubersprüche über mehrere Manakosten. Ein Halfdeck voller Vier- bis Sechs-Mana-Karten kann mit einem zweiten langsamen Pack schnell unspielbar werden.</p>
+      </article>
+
+      <article class="guide-card">
+        <span class="guide-number">6</span>
+        <h2>Interaktion einbauen</h2>
+        <p>Ein paar Karten sollten gegnerische Kreaturen oder andere relevante Permanents beantworten können. Das kann Removal, Bounce, Combat Tricks oder andere thematisch passende Interaktion sein.</p>
+      </article>
+
+      <article class="guide-card">
+        <span class="guide-number">7</span>
+        <h2>Synergien nicht überziehen</h2>
+        <p>Ein Halfdeck darf starke Synergien haben, sollte aber nicht ausschließlich aus Karten bestehen, die nur zusammen funktionieren. Gute Jumpstart-Karten sind sowohl thematisch als auch einzeln brauchbar.</p>
+      </article>
+
+      <article class="guide-card">
+        <span class="guide-number">8</span>
+        <h2>Mit fremden Packs testen</h2>
+        <p>Mische dein neues Halfdeck testweise mit mehreren sehr unterschiedlichen vorhandenen Packs. Wenn die Kombinationen regelmäßig Mana-Probleme haben oder das Halfdeck nichts tut, passe Kurve, Länder oder Interaktion an.</p>
+      </article>
+    </section>
+
+    <section class="guide-section">
+      <h2>Praktische Start-Faustregel</h2>
+      <p>Das hier ist keine offizielle Wizards-Formel, sondern ein sinnvoller Ausgangspunkt für einen eigenen Cube:</p>
+      <div class="guide-recipe">
+        <div><strong>7–8</strong><span>Länder / Fixing</span></div>
+        <div><strong>7–9</strong><span>Kreaturen</span></div>
+        <div><strong>2–4</strong><span>Interaktion</span></div>
+        <div><strong>2–4</strong><span>Theme / Payoffs</span></div>
+      </div>
+      <p class="guide-note">Die Kategorien dürfen sich überschneiden: Eine Kreatur kann gleichzeitig Theme-Payoff oder Interaktion sein. Entscheidend sind 20 Karten insgesamt und ein funktionierender Gameplan.</p>
+    </section>
+
+    <section class="guide-section">
+      <h2>Im JSON eintragen</h2>
+      <p>Für eigene Decks kannst du zusätzlich bei jeder Karte den Typ hinterlegen. Dadurch wird sie in der Deckansicht automatisch unter Kreaturen, Hexereien, Spontanzaubern, Verzauberungen, Artefakten usw. einsortiert.</p>
+      <pre class="code-example"><code>{
+  "name": "Lightning Bolt",
+  "qty": 1,
+  "type": "Instant"
+}</code></pre>
+      <p>Erlaubte Haupttypen sind <code>Creature</code>, <code>Sorcery</code>, <code>Instant</code>, <code>Enchantment</code>, <code>Artifact</code>, <code>Planeswalker</code>, <code>Battle</code>, <code>Land</code> und <code>Other</code>.</p>
+    </section>
+
+    <section class="guide-section sources-card">
+      <h2>Wizards-Quellen</h2>
+      <p>Die Grundprinzipien oben orientieren sich an Wizards' eigener Beschreibung des Formats und am Designartikel zum ursprünglichen Jumpstart.</p>
+      <div class="source-links">
+        <a href="https://magic.wizards.com/en/news/announcements/introducing-jumpstart-new-way-play-magic-2020-02-20">Introducing Jumpstart</a>
+        <a href="https://magic.wizards.com/en/news/card-preview/behind-scenes-designing-jumpstart-2020-06-17">Behind the Scenes of Designing Jumpstart</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="shell"><span>Build Guide · MTG Jumpstart Cube</span></div></footer>
+</body>
+</html>
