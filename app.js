@@ -1,10 +1,10 @@
 const COLOR_INFO = {
-  R: { name: "Rot", glyph: "🔥" },
-  U: { name: "Blau", glyph: "💧" },
-  W: { name: "Weiß", glyph: "☀" },
-  B: { name: "Schwarz", glyph: "☠" },
-  G: { name: "Grün", glyph: "🌿" },
-  M: { name: "Mehrfarbig", glyph: "✦" }
+  R: { name: "Rot", manaClass: "ms-r" },
+  U: { name: "Blau", manaClass: "ms-u" },
+  W: { name: "Weiß", manaClass: "ms-w" },
+  B: { name: "Schwarz", manaClass: "ms-b" },
+  G: { name: "Grün", manaClass: "ms-g" },
+  M: { name: "Mehrfarbig" }
 };
 
 const app = document.querySelector("#app");
@@ -17,10 +17,11 @@ function el(tag, className, text) {
 }
 
 function manaBadge(color) {
-  const info = COLOR_INFO[color] || { name: color, glyph: color };
-  const badge = el("span", `mana mana-${color}`, info.glyph);
+  const info = COLOR_INFO[color] || { name: color };
+  const badge = el("i", `mana ms ${info.manaClass || ""} mana-${color}`.trim());
   badge.title = info.name;
   badge.setAttribute("aria-label", info.name);
+  badge.setAttribute("role", "img");
   return badge;
 }
 
@@ -106,7 +107,8 @@ function renderOverview(config, decks) {
     section.dataset.group = group;
 
     const title = el("h2", "section-title");
-    title.append(manaBadge(group));
+    if (group === "M") title.append(manaRow(["W", "U", "B", "R", "G"]));
+    else title.append(manaBadge(group));
     title.append(document.createTextNode(COLOR_INFO[group]?.name || group));
     title.append(el("span", "count", `${groupDecks.length} Decks`));
     section.append(title);
