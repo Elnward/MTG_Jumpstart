@@ -26,21 +26,15 @@ jobs:
           import json
           import pathlib
           import re
+          import time
           import urllib.request
           import unicodedata
 
           headers = {
               "User-Agent": "MTG-Jumpstart-Cube-Library/1.0 (GitHub Actions)",
-              "Accept": "application/json"
+              "Accept": "application/json",
+              "Content-Type": "application/json",
           }
-
-          # Scryfall exposes this stable alias for its current Oracle Cards export.
-          bulk_req = urllib.request.Request(
-              "https://data.scryfall.io/oracle-cards/oracle-cards.json",
-              headers=headers,
-          )
-          with urllib.request.urlopen(bulk_req) as response:
-              oracle_cards = json.load(response)
 
           def norm(value):
               value = unicodedata.normalize("NFKD", value)
@@ -49,7 +43,32 @@ jobs:
               value = value.replace("–", "-").replace("—", "-")
               return re.sub(r"\s+", " ", value).strip().casefold()
 
-          by_name = {norm(card["name"]): card for card in oracle_cards}
+          paths = sorted(pathlib.Path("data").glob("marvel-*.json"))
+          datasets = {path: json.loads(path.read_text(encoding="utf-8")) for path in paths}
+          names = sorted({
+              item["name"]
+              for data in datasets.values()
+              for deck in data.get("decks", [])
+              for item in deck.get("cards", [])
+          })
+
+          by_name = {}
+          not_found = []
+          for start in range(0, len(names), 75):
+              batch = names[start:start + 75]
+              payload = json.dumps({"identifiers": [{"name": name} for name in batch]}).encode("utf-8")
+              request = urllib.request.Request(
+                  "https://api.scryfall.com/cards/collection",
+                  data=payload,
+                  headers=headers,
+                  method="POST",
+              )
+              with urllib.request.urlopen(request) as response:
+                  result = json.load(response)
+              for card in result.get("data", []):
+                  by_name[norm(card["name"])] = card
+              not_found.extend(item.get("name", str(item)) for item in result.get("not_found", []))
+              time.sleep(0.12)
 
           def primary_type(type_line):
               # Creature takes precedence for Artifact/Enchantment Creatures so
@@ -65,11 +84,8 @@ jobs:
 
           unresolved = []
           touched = 0
-
-          for path in sorted(pathlib.Path("data").glob("marvel-*.json")):
-              data = json.loads(path.read_text(encoding="utf-8"))
+          for path, data in datasets.items():
               changed = False
-
               for deck in data.get("decks", []):
                   for item in deck.get("cards", []):
                       card = by_name.get(norm(item["name"]))
@@ -80,26 +96,23 @@ jobs:
                       if item.get("type") != category:
                           item["type"] = category
                           changed = True
-
                   for item in deck.get("lands", []):
                       if item.get("type") != "Land":
                           item["type"] = "Land"
                           changed = True
-
               if changed:
-                  path.write_text(
-                      json.dumps(data, ensure_ascii=False, indent=2) + "\n",
-                      encoding="utf-8",
-                  )
+                  path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
                   touched += 1
 
+          if not_found:
+              print("Scryfall not_found entries:", sorted(set(not_found)))
           if unresolved:
               print("Unresolved card names:")
               for item in unresolved:
                   print(" -", item)
               raise SystemExit(1)
 
-          print(f"Updated {touched} Marvel data files.")
+          print(f"Resolved {len(by_name)} unique cards; updated {touched} Marvel data files.")
           PY
 
       - name: Commit enriched data
