@@ -17,7 +17,10 @@
       "required": ["name", "qty"],
       "properties": {
         "name": { "type": "string", "minLength": 1 },
-        "qty": { "type": "integer", "minimum": 1 }
+        "qty": { "type": "integer", "minimum": 1 },
+        "type": {
+          "enum": ["Creature", "Sorcery", "Instant", "Enchantment", "Artifact", "Planeswalker", "Battle", "Land", "Other"]
+        }
       }
     },
     "deck": {
