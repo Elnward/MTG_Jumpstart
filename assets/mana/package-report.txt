@@ -1,0 +1,426 @@
+Mana package files:
+mana-master/.gitignore
+mana-master/CHANGELOG.md
+mana-master/README.md
+mana-master/css/mana.css
+mana-master/css/mana.css.map
+mana-master/css/mana.min.css
+mana-master/css/mana.min.css.map
+mana-master/docs/CNAME
+mana-master/docs/assets/docs.css
+mana-master/docs/assets/mana.min.css
+mana-master/docs/assets/mana.min.css.map
+mana-master/docs/assets/zepto.min.js
+mana-master/docs/attributes.html
+mana-master/docs/cheatsheet.html
+mana-master/docs/favicon.ico
+mana-master/docs/fonts/beleren.eot
+mana-master/docs/fonts/beleren.otf
+mana-master/docs/fonts/beleren.svg
+mana-master/docs/fonts/beleren.ttf
+mana-master/docs/fonts/beleren.woff
+mana-master/docs/fonts/mana.eot
+mana-master/docs/fonts/mana.svg
+mana-master/docs/fonts/mana.ttf
+mana-master/docs/fonts/mana.woff
+mana-master/docs/fonts/mana.woff2
+mana-master/docs/fonts/mplantin.eot
+mana-master/docs/fonts/mplantin.svg
+mana-master/docs/fonts/mplantin.ttf
+mana-master/docs/fonts/mplantin.woff
+mana-master/docs/icons.html
+mana-master/docs/index.html
+mana-master/fonts/mana.eot
+mana-master/fonts/mana.svg
+mana-master/fonts/mana.ttf
+mana-master/fonts/mana.woff
+mana-master/fonts/mana.woff2
+mana-master/fonts/mplantin.eot
+mana-master/fonts/mplantin.svg
+mana-master/fonts/mplantin.ttf
+mana-master/fonts/mplantin.woff
+mana-master/index.html
+mana-master/less/colors.less
+mana-master/less/core.less
+mana-master/less/cost.less
+mana-master/less/dfc.less
+mana-master/less/duo.less
+mana-master/less/extras.less
+mana-master/less/icons.less
+mana-master/less/loyalty.less
+mana-master/less/mana.less
+mana-master/less/path.less
+mana-master/less/sizes.less
+mana-master/less/variables.less
+mana-master/package-lock.json
+mana-master/package.json
+mana-master/sass/_aliases.scss
+mana-master/sass/_colors.scss
+mana-master/sass/_core.scss
+mana-master/sass/_cost.scss
+mana-master/sass/_dfc.scss
+mana-master/sass/_duo.scss
+mana-master/sass/_extras.scss
+mana-master/sass/_icons.scss
+mana-master/sass/_loyalty.scss
+mana-master/sass/_path.scss
+mana-master/sass/_sizes.scss
+mana-master/sass/_variables.scss
+mana-master/sass/mana.scss
+mana-master/svg/0.svg
+mana-master/svg/1.svg
+mana-master/svg/10.svg
+mana-master/svg/100.svg
+mana-master/svg/1000000.svg
+mana-master/svg/11.svg
+mana-master/svg/12.svg
+mana-master/svg/13.svg
+mana-master/svg/14.svg
+mana-master/svg/15.svg
+mana-master/svg/16.svg
+mana-master/svg/17.svg
+mana-master/svg/18.svg
+mana-master/svg/19.svg
+mana-master/svg/2.svg
+mana-master/svg/20.svg
+mana-master/svg/3.svg
+mana-master/svg/4.svg
+mana-master/svg/5.svg
+mana-master/svg/6.svg
+mana-master/svg/7.svg
+mana-master/svg/8.svg
+mana-master/svg/9.svg
+mana-master/svg/ability-activated.svg
+mana-master/svg/ability-adamant.svg
+mana-master/svg/ability-adapt.svg
+mana-master/svg/ability-addendum.svg
+mana-master/svg/ability-adventure.svg
+mana-master/svg/ability-afflict.svg
+mana-master/svg/ability-afterlife.svg
+mana-master/svg/ability-aftermath.svg
+mana-master/svg/ability-alliance.svg
+mana-master/svg/ability-amass-orcs.svg
+mana-master/svg/ability-amass.svg
+mana-master/svg/ability-ascend.svg
+mana-master/svg/ability-backup.svg
+mana-master/svg/ability-blitz.svg
+mana-master/svg/ability-boast.svg
+mana-master/svg/ability-casualty.svg
+mana-master/svg/ability-changeling.svg
+mana-master/svg/ability-channel.svg
+mana-master/svg/ability-cleave.svg
+mana-master/svg/ability-combat-condition.svg
+mana-master/svg/ability-companion.svg
+mana-master/svg/ability-constellation.svg
+mana-master/svg/ability-convoke-original.svg
+mana-master/svg/ability-convoke.svg
+mana-master/svg/ability-corrupted.svg
+mana-master/svg/ability-coven.svg
+mana-master/svg/ability-d20.svg
+mana-master/svg/ability-day-night.svg
+mana-master/svg/ability-daybound-nightbound.svg
+mana-master/svg/ability-deathtouch.svg
+mana-master/svg/ability-decayed.svg
+mana-master/svg/ability-defender.svg
+mana-master/svg/ability-devotion.svg
+mana-master/svg/ability-disturb.svg
+mana-master/svg/ability-domain.svg
+mana-master/svg/ability-doublestrike.svg
+mana-master/svg/ability-dungeon.svg
+mana-master/svg/ability-embalm.svg
+mana-master/svg/ability-enlist.svg
+mana-master/svg/ability-enrage-original.svg
+mana-master/svg/ability-enrage.svg
+mana-master/svg/ability-escape.svg
+mana-master/svg/ability-eternalize.svg
+mana-master/svg/ability-exploit.svg
+mana-master/svg/ability-explore.svg
+mana-master/svg/ability-fabricate.svg
+mana-master/svg/ability-firststrike.svg
+mana-master/svg/ability-flash.svg
+mana-master/svg/ability-flying.svg
+mana-master/svg/ability-for-mirrodin.svg
+mana-master/svg/ability-foretell.svg
+mana-master/svg/ability-goad.svg
+mana-master/svg/ability-haste.svg
+mana-master/svg/ability-hexproof-black.svg
+mana-master/svg/ability-hexproof-blue.svg
+mana-master/svg/ability-hexproof-green.svg
+mana-master/svg/ability-hexproof-red.svg
+mana-master/svg/ability-hexproof-white.svg
+mana-master/svg/ability-hexproof.svg
+mana-master/svg/ability-hideaway.svg
+mana-master/svg/ability-improvise.svg
+mana-master/svg/ability-incubate.svg
+mana-master/svg/ability-indestructible.svg
+mana-master/svg/ability-investigate.svg
+mana-master/svg/ability-jumpstart.svg
+mana-master/svg/ability-kicker.svg
+mana-master/svg/ability-landfall.svg
+mana-master/svg/ability-learn.svg
+mana-master/svg/ability-lifelink.svg
+mana-master/svg/ability-magecraft.svg
+mana-master/svg/ability-meld.svg
+mana-master/svg/ability-menace.svg
+mana-master/svg/ability-mentor.svg
+mana-master/svg/ability-mutate.svg
+mana-master/svg/ability-ninjutsu.svg
+mana-master/svg/ability-obscura.svg
+mana-master/svg/ability-party.svg
+mana-master/svg/ability-proliferate.svg
+mana-master/svg/ability-prototype.svg
+mana-master/svg/ability-prowess.svg
+mana-master/svg/ability-raid.svg
+mana-master/svg/ability-reach.svg
+mana-master/svg/ability-read-ahead.svg
+mana-master/svg/ability-reconfigure.svg
+mana-master/svg/ability-revolt.svg
+mana-master/svg/ability-ring-bearer.svg
+mana-master/svg/ability-riot.svg
+mana-master/svg/ability-specialize.svg
+mana-master/svg/ability-spectacle.svg
+mana-master/svg/ability-static.svg
+mana-master/svg/ability-summoning-sickness.svg
+mana-master/svg/ability-surveil.svg
+mana-master/svg/ability-the-ring-tempts-you.svg
+mana-master/svg/ability-toxic.svg
+mana-master/svg/ability-training.svg
+mana-master/svg/ability-trample.svg
+mana-master/svg/ability-transform.svg
+mana-master/svg/ability-triggered.svg
+mana-master/svg/ability-undergrowth.svg
+mana-master/svg/ability-unearth.svg
+mana-master/svg/ability-vigilance.svg
+mana-master/svg/ability-ward.svg
+mana-master/svg/acorn.svg
+mana-master/svg/artifact.svg
+mana-master/svg/artist-brush.svg
+mana-master/svg/artist-nib.svg
+mana-master/svg/b.svg
+mana-master/svg/c.svg
+mana-master/svg/chaos.svg
+mana-master/svg/clan-abzan.svg
+mana-master/svg/clan-atarka.svg
+mana-master/svg/clan-dromoka.svg
+mana-master/svg/clan-jeskai.svg
+mana-master/svg/clan-kolaghan.svg
+mana-master/svg/clan-mardu.svg
+mana-master/svg/clan-ojutai.svg
+mana-master/svg/clan-silumgar.svg
+mana-master/svg/clan-sultai.svg
+mana-master/svg/clan-temur.svg
+mana-master/svg/conspiracy.svg
+mana-master/svg/counter-arrow.svg
+mana-master/svg/counter-brick.svg
+mana-master/svg/counter-charge.svg
+mana-master/svg/counter-devotion.svg
+mana-master/svg/counter-doom.svg
+mana-master/svg/counter-echo.svg
+mana-master/svg/counter-flame.svg
+mana-master/svg/counter-flood.svg
+mana-master/svg/counter-fungus.svg
+mana-master/svg/counter-gold.svg
+mana-master/svg/counter-ki.svg
+mana-master/svg/counter-lore.svg
+mana-master/svg/counter-loyalty.svg
+mana-master/svg/counter-mining.svg
+mana-master/svg/counter-minus-uneven.svg
+mana-master/svg/counter-minus.svg
+mana-master/svg/counter-muster.svg
+mana-master/svg/counter-paw.svg
+mana-master/svg/counter-pin.svg
+mana-master/svg/counter-plus-uneven.svg
+mana-master/svg/counter-plus.svg
+mana-master/svg/counter-scream.svg
+mana-master/svg/counter-shield.svg
+mana-master/svg/counter-skeleton.svg
+mana-master/svg/counter-skull.svg
+mana-master/svg/counter-slime.svg
+mana-master/svg/counter-stun.svg
+mana-master/svg/counter-time.svg
+mana-master/svg/counter-verse.svg
+mana-master/svg/counter-vortex.svg
+mana-master/svg/creature.svg
+mana-master/svg/dfc-day.svg
+mana-master/svg/dfc-emrakul.svg
+mana-master/svg/dfc-enchantment.svg
+mana-master/svg/dfc-ignite.svg
+mana-master/svg/dfc-lesson.svg
+mana-master/svg/dfc-modal-back.svg
+mana-master/svg/dfc-modal-face.svg
+mana-master/svg/dfc-moon.svg
+mana-master/svg/dfc-night.svg
+mana-master/svg/dfc-spark.svg
+mana-master/svg/e.svg
+mana-master/svg/enchantment.svg
+mana-master/svg/flashback.svg
+mana-master/svg/g.svg
+mana-master/svg/guild-azorius.svg
+mana-master/svg/guild-boros.svg
+mana-master/svg/guild-dimir.svg
+mana-master/svg/guild-golgari.svg
+mana-master/svg/guild-gruul.svg
+mana-master/svg/guild-izzet.svg
+mana-master/svg/guild-orzhov.svg
+mana-master/svg/guild-rakdos.svg
+mana-master/svg/guild-selesnya.svg
+mana-master/svg/guild-simic.svg
+mana-master/svg/half.svg
+mana-master/svg/infinity.svg
+mana-master/svg/instant.svg
+mana-master/svg/land.svg
+mana-master/svg/loyalty-down.svg
+mana-master/svg/loyalty-start.svg
+mana-master/svg/loyalty-up.svg
+mana-master/svg/loyalty-zero.svg
+mana-master/svg/multiple.svg
+mana-master/svg/p.svg
+mana-master/svg/phenomenon.svg
+mana-master/svg/plane.svg
+mana-master/svg/planeswalker.svg
+mana-master/svg/polis-akros.svg
+mana-master/svg/polis-meletis.svg
+mana-master/svg/polis-setessa.svg
+mana-master/svg/power.svg
+mana-master/svg/r.svg
+mana-master/svg/rarity.svg
+mana-master/svg/s.svg
+mana-master/svg/saga.svg
+mana-master/svg/scheme.svg
+mana-master/svg/school-lorehold-inner.svg
+mana-master/svg/school-lorehold.svg
+mana-master/svg/school-prismari-inner.svg
+mana-master/svg/school-prismari.svg
+mana-master/svg/school-quandrix-inner.svg
+mana-master/svg/school-quandrix.svg
+mana-master/svg/school-silverquill-inner.svg
+mana-master/svg/school-silverquill.svg
+mana-master/svg/school-witherbloom-inner.svg
+mana-master/svg/school-witherbloom-outer.svg
+mana-master/svg/school-witherbloom.svg
+mana-master/svg/sorcery.svg
+mana-master/svg/tap-alt.svg
+mana-master/svg/tap.svg
+mana-master/svg/ticket.svg
+mana-master/svg/token.svg
+mana-master/svg/toughness.svg
+mana-master/svg/u.svg
+mana-master/svg/untap.svg
+mana-master/svg/vanguard.svg
+mana-master/svg/w-list.svg
+mana-master/svg/w-original.svg
+mana-master/svg/w.svg
+mana-master/svg/watermark-agentsofsneak.svg
+mana-master/svg/watermark-arena.svg
+mana-master/svg/watermark-brokers.svg
+mana-master/svg/watermark-cabaretti.svg
+mana-master/svg/watermark-colorpie.svg
+mana-master/svg/watermark-conspiracy.svg
+mana-master/svg/watermark-corocoro.svg
+mana-master/svg/watermark-crossbreedlabs.svg
+mana-master/svg/watermark-cutiemark-apples.svg
+mana-master/svg/watermark-cutiemark-balloons.svg
+mana-master/svg/watermark-cutiemark-butterflies.svg
+mana-master/svg/watermark-cutiemark-gems.svg
+mana-master/svg/watermark-cutiemark-rainbow.svg
+mana-master/svg/watermark-cutiemark-sparkle.svg
+mana-master/svg/watermark-cutiemark-waningmoon.svg
+mana-master/svg/watermark-cutiemark-waxingmoon.svg
+mana-master/svg/watermark-dci.svg
+mana-master/svg/watermark-dengekimaoh.svg
+mana-master/svg/watermark-desparked.svg
+mana-master/svg/watermark-dnd.svg
+mana-master/svg/watermark-flavor-aestheticconsultation.svg
+mana-master/svg/watermark-flavor-farewelltoarms.svg
+mana-master/svg/watermark-flavor-monkeymonkeymonkey.svg
+mana-master/svg/watermark-flavor-moxlotus.svg
+mana-master/svg/watermark-flavor-myfirsttome.svg
+mana-master/svg/watermark-flavor-shoetree.svg
+mana-master/svg/watermark-flavor-whenfluffybunniesattack.svg
+mana-master/svg/watermark-fnm.svg
+mana-master/svg/watermark-goblinexplosioneers.svg
+mana-master/svg/watermark-grandprix.svg
+mana-master/svg/watermark-grandprix2.svg
+mana-master/svg/watermark-herospath-1.svg
+mana-master/svg/watermark-herospath-2.svg
+mana-master/svg/watermark-herospath-3.svg
+mana-master/svg/watermark-herospath-4.svg
+mana-master/svg/watermark-herospath-5.svg
+mana-master/svg/watermark-herospath-6.svg
+mana-master/svg/watermark-herospath-7.svg
+mana-master/svg/watermark-herospath-8.svg
+mana-master/svg/watermark-herospath-9.svg
+mana-master/svg/watermark-herospath.svg
+mana-master/svg/watermark-japanjunior.svg
+mana-master/svg/watermark-judgeacademy.svg
+mana-master/svg/watermark-junior.svg
+mana-master/svg/watermark-juniorapac.svg
+mana-master/svg/watermark-junioreurope.svg
+mana-master/svg/watermark-leagueofdastardlydoom.svg
+mana-master/svg/watermark-maestros.svg
+mana-master/svg/watermark-mirran.svg
+mana-master/svg/watermark-mps.svg
+mana-master/svg/watermark-mtg.svg
+mana-master/svg/watermark-mtg10.svg
+mana-master/svg/watermark-mtg15.svg
+mana-master/svg/watermark-nerf.svg
+mana-master/svg/watermark-obscura.svg
+mana-master/svg/watermark-orderofthewidget.svg
+mana-master/svg/watermark-protour.svg
+mana-master/svg/watermark-riveteers.svg
+mana-master/svg/watermark-scholarship.svg
+mana-master/svg/watermark-transformers.svg
+mana-master/svg/watermark-wotc.svg
+mana-master/svg/watermark-wpn.svg
+mana-master/svg/x.svg
+mana-master/svg/y.svg
+mana-master/svg/z.svg
+
+Relevant codepoint references:
+/tmp/mana-unpacked/mana-master/css/mana.css:36:  content: "\e600";
+/tmp/mana-unpacked/mana-master/css/mana.css:45:  content: "\e601";
+/tmp/mana-unpacked/mana-master/css/mana.css:48:  content: "\e602";
+/tmp/mana-unpacked/mana-master/css/mana.css:51:  content: "\e603";
+/tmp/mana-unpacked/mana-master/css/mana.css:54:  content: "\e604";
+/tmp/mana-unpacked/mana-master/css/mana.css:264:  content: "\e600";
+/tmp/mana-unpacked/mana-master/css/mana.css:267:  content: "\e601";
+/tmp/mana-unpacked/mana-master/css/mana.css:270:  content: "\e602";
+/tmp/mana-unpacked/mana-master/css/mana.css:273:  content: "\e603";
+/tmp/mana-unpacked/mana-master/css/mana.css:276:  content: "\e604";
+/tmp/mana-unpacked/mana-master/css/mana.css:336:  content: "\e908";
+/tmp/mana-unpacked/mana-master/css/mana.css:393:  content: "\e90d";
+/tmp/mana-unpacked/mana-master/css/mana.css:399:  content: "\e90f";
+/tmp/mana-unpacked/mana-master/less/icons.less:6:    &-w::before { content: "\e600"; }
+/tmp/mana-unpacked/mana-master/less/icons.less:9:    &-u::before { content: "\e601"; }
+/tmp/mana-unpacked/mana-master/less/icons.less:10:    &-b::before { content: "\e602"; }
+/tmp/mana-unpacked/mana-master/less/icons.less:11:    &-r::before { content: "\e603"; }
+/tmp/mana-unpacked/mana-master/less/icons.less:12:    &-g::before { content: "\e604"; }
+/tmp/mana-unpacked/mana-master/less/icons.less:89:    &-2w::after { content: "\e600"; } // white
+/tmp/mana-unpacked/mana-master/less/icons.less:94:    &-2u::after { content: "\e601"; } // blue
+/tmp/mana-unpacked/mana-master/less/icons.less:99:    &-2b::after { content: "\e602"; } // black
+/tmp/mana-unpacked/mana-master/less/icons.less:104:    &-2r::after { content: "\e603"; } // red
+/tmp/mana-unpacked/mana-master/less/icons.less:109:    &-2g::after { content: "\e604"; } // green
+/tmp/mana-unpacked/mana-master/less/icons.less:173:        &-ignite::before { content: "\e908"; }
+/tmp/mana-unpacked/mana-master/less/icons.less:198:        &-boros::before { content: "\e90d"; }
+/tmp/mana-unpacked/mana-master/less/icons.less:200:        &-golgari::before { content: "\e90f"; }
+/tmp/mana-unpacked/mana-master/docs/cheatsheet.html:53:                    <span class="utf"><i>&#xe600;</i> ms-w <code>&amp;#xe600;</code></span>
+/tmp/mana-unpacked/mana-master/docs/cheatsheet.html:54:                    <span class="utf"><i>&#xe601;</i> ms-u <code>&amp;#xe601;</code></span>
+/tmp/mana-unpacked/mana-master/docs/cheatsheet.html:55:                    <span class="utf"><i>&#xe602;</i> ms-b <code>&amp;#xe602;</code></span>
+/tmp/mana-unpacked/mana-master/docs/cheatsheet.html:56:                    <span class="utf"><i>&#xe603;</i> ms-r <code>&amp;#xe603;</code></span>
+/tmp/mana-unpacked/mana-master/docs/cheatsheet.html:57:                    <span class="utf"><i>&#xe604;</i> ms-g <code>&amp;#xe604;</code></span>
+/tmp/mana-unpacked/mana-master/docs/cheatsheet.html:160:                    <span class="utf"><i>&#xe908;</i> ms-dfc-ignite <code>&amp;#xe908;</code></span>
+/tmp/mana-unpacked/mana-master/docs/cheatsheet.html:176:                    <span class="utf"><i>&#xe90d;</i> ms-guild-boros <code>&amp;#xe90d;</code></span>
+/tmp/mana-unpacked/mana-master/docs/cheatsheet.html:178:                    <span class="utf"><i>&#xe90f;</i> ms-guild-golgari <code>&amp;#xe90f;</code></span>
+/tmp/mana-unpacked/mana-master/sass/_icons.scss:8:    &-w::before { content: "\e600"; }
+/tmp/mana-unpacked/mana-master/sass/_icons.scss:11:    &-u::before { content: "\e601"; }
+/tmp/mana-unpacked/mana-master/sass/_icons.scss:12:    &-b::before { content: "\e602"; }
+/tmp/mana-unpacked/mana-master/sass/_icons.scss:13:    &-r::before { content: "\e603"; }
+/tmp/mana-unpacked/mana-master/sass/_icons.scss:14:    &-g::before { content: "\e604"; }
+/tmp/mana-unpacked/mana-master/sass/_icons.scss:113:    &-cw::after { content: "\e600"; } // white
+/tmp/mana-unpacked/mana-master/sass/_icons.scss:119:    &-cu::after { content: "\e601"; } // blue
+/tmp/mana-unpacked/mana-master/sass/_icons.scss:125:    &-cb::after { content: "\e602"; } // black
+/tmp/mana-unpacked/mana-master/sass/_icons.scss:131:    &-cr::after { content: "\e603"; } // red
+/tmp/mana-unpacked/mana-master/sass/_icons.scss:137:    &-cg::after { content: "\e604"; } // green
+/tmp/mana-unpacked/mana-master/sass/_icons.scss:206:        &-ignite::before { content: "\e908"; }
+/tmp/mana-unpacked/mana-master/sass/_icons.scss:237:        &-boros::before { content: "\e90d"; }
+/tmp/mana-unpacked/mana-master/sass/_icons.scss:239:        &-golgari::before { content: "\e90f"; }
