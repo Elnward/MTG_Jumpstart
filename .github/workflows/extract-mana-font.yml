@@ -1,0 +1,58 @@
+name: Extract Mana font assets
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/extract-mana-font.yml'
+      - 'assets/mana-master.zip'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Extract Mana font package
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/mana-unpacked assets/mana
+          mkdir -p /tmp/mana-unpacked assets/mana/fonts assets/mana/css
+          unzip -q assets/mana-master.zip -d /tmp/mana-unpacked
+
+          # Copy web-font files to a stable path used by the Jumpstart app.
+          find /tmp/mana-unpacked -type f \( -iname '*.woff2' -o -iname '*.woff' -o -iname '*.ttf' -o -iname '*.otf' -o -iname '*.eot' \) -print0 \
+            | while IFS= read -r -d '' file; do cp "$file" "assets/mana/fonts/$(basename "$file")"; done
+
+          # Keep the package CSS available for reference and attribution.
+          find /tmp/mana-unpacked -type f -iname '*.css' -print0 \
+            | while IFS= read -r -d '' file; do cp "$file" "assets/mana/css/$(basename "$file")"; done
+
+          # Produce a small, readable report so the glyph mappings can be verified in-repo.
+          {
+            echo 'Mana package files:'
+            find /tmp/mana-unpacked -type f | sed 's#^/tmp/mana-unpacked/##' | sort
+            echo
+            echo 'Relevant codepoint references:'
+            grep -RniE 'e600|e601|e602|e603|e604|e908|e90d|e90f' /tmp/mana-unpacked --include='*.css' --include='*.scss' --include='*.less' --include='*.html' --include='*.md' || true
+          } > assets/mana/package-report.txt
+
+      - name: Commit extracted font assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/mana
+          if git diff --cached --quiet; then
+            echo 'No extracted assets changed.'
+            exit 0
+          fi
+          git commit -m 'Extract Mana font assets [skip ci]'
+          git push
