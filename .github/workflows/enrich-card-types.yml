@@ -54,8 +54,7 @@ jobs:
           by_name = {norm(card["name"]): card for card in oracle_cards}
 
           def primary_type(type_line):
-              # Creature takes precedence for Artifact/Enchantment Creatures, matching
-              # the way decklists are normally grouped for sorting.
+              # Creature takes precedence for Artifact/Enchantment Creatures.
               order = [
                   "Creature", "Planeswalker", "Battle", "Sorcery", "Instant",
                   "Enchantment", "Artifact", "Land"
@@ -117,3 +116,5 @@ jobs:
           fi
           git commit -m 'Add card type metadata [skip ci]'
           git push
+
+# Updated to trigger enrichment after introducing type-grouped deck views.
