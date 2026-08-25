@@ -35,18 +35,27 @@ jobs:
           }
 
           meta_req = urllib.request.Request(
-              "https://api.scryfall.com/bulk-data/oracle-cards",
+              "https://api.scryfall.com/bulk-data",
               headers=headers,
           )
           with urllib.request.urlopen(meta_req) as response:
-              meta = json.load(response)
+              bulk_index = json.load(response)
 
-          bulk_req = urllib.request.Request(meta["download_uri"], headers=headers)
+          datasets = bulk_index.get("data", []) if isinstance(bulk_index, dict) else []
+          oracle_meta = next(
+              (item for item in datasets if item.get("type") == "oracle_cards"),
+              None,
+          )
+          if not oracle_meta or not oracle_meta.get("download_uri"):
+              raise RuntimeError("Scryfall oracle_cards bulk dataset was not found.")
+
+          bulk_req = urllib.request.Request(oracle_meta["download_uri"], headers=headers)
           with urllib.request.urlopen(bulk_req) as response:
               oracle_cards = json.load(response)
 
           def norm(value):
               value = unicodedata.normalize("NFKD", value)
+              value = "".join(ch for ch in value if not unicodedata.combining(ch))
               value = value.replace("’", "'").replace("‘", "'")
               value = value.replace("–", "-").replace("—", "-")
               return re.sub(r"\s+", " ", value).strip().casefold()
@@ -54,7 +63,8 @@ jobs:
           by_name = {norm(card["name"]): card for card in oracle_cards}
 
           def primary_type(type_line):
-              # Creature takes precedence for Artifact/Enchantment Creatures.
+              # Creature takes precedence for Artifact/Enchantment Creatures so
+              # sorting remains useful when physically rebuilding a halfdeck.
               order = [
                   "Creature", "Planeswalker", "Battle", "Sorcery", "Instant",
                   "Enchantment", "Artifact", "Land"
@@ -116,5 +126,3 @@ jobs:
           fi
           git commit -m 'Add card type metadata [skip ci]'
           git push
-
-# Updated to trigger enrichment after introducing type-grouped deck views.
