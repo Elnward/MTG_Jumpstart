@@ -34,22 +34,11 @@ jobs:
               "Accept": "application/json"
           }
 
-          meta_req = urllib.request.Request(
-              "https://api.scryfall.com/bulk-data",
+          # Scryfall exposes this stable alias for its current Oracle Cards export.
+          bulk_req = urllib.request.Request(
+              "https://data.scryfall.io/oracle-cards/oracle-cards.json",
               headers=headers,
           )
-          with urllib.request.urlopen(meta_req) as response:
-              bulk_index = json.load(response)
-
-          datasets = bulk_index.get("data", []) if isinstance(bulk_index, dict) else []
-          oracle_meta = next(
-              (item for item in datasets if item.get("type") == "oracle_cards"),
-              None,
-          )
-          if not oracle_meta or not oracle_meta.get("download_uri"):
-              raise RuntimeError("Scryfall oracle_cards bulk dataset was not found.")
-
-          bulk_req = urllib.request.Request(oracle_meta["download_uri"], headers=headers)
           with urllib.request.urlopen(bulk_req) as response:
               oracle_cards = json.load(response)
 
