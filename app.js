@@ -7,6 +7,30 @@ const COLOR_INFO = {
   M: { name: "Mehrfarbig" }
 };
 
+const TYPE_ORDER = [
+  "Creature",
+  "Sorcery",
+  "Instant",
+  "Enchantment",
+  "Artifact",
+  "Planeswalker",
+  "Battle",
+  "Other",
+  "Land"
+];
+
+const TYPE_LABELS = {
+  Creature: "Kreaturen",
+  Sorcery: "Hexereien",
+  Instant: "Spontanzauber",
+  Enchantment: "Verzauberungen",
+  Artifact: "Artefakte",
+  Planeswalker: "Planeswalker",
+  Battle: "Schlachten",
+  Other: "Sonstige",
+  Land: "Länder"
+};
+
 const app = document.querySelector("#app");
 
 function el(tag, className, text) {
@@ -149,11 +173,20 @@ function renderOverview(config, decks) {
   });
 }
 
+function normalizeType(item, fallback = "Other") {
+  const value = item.type || fallback;
+  return TYPE_ORDER.includes(value) ? value : "Other";
+}
+
 function renderList(title, entries) {
   const panel = el("section", "list-panel");
-  panel.append(el("h2", "", title));
-  const list = el("ul", "card-list");
+  const itemCount = entries.reduce((sum, item) => sum + Number(item.qty || 0), 0);
+  const heading = el("h2", "type-heading");
+  heading.append(el("span", "", title));
+  heading.append(el("span", "type-count", `${itemCount}`));
+  panel.append(heading);
 
+  const list = el("ul", "card-list");
   entries.forEach(item => {
     const row = el("li");
     row.append(el("span", "qty", `${item.qty}×`));
@@ -163,6 +196,22 @@ function renderList(title, entries) {
 
   panel.append(list);
   return panel;
+}
+
+function groupedDeckEntries(deck) {
+  const groups = new Map(TYPE_ORDER.map(type => [type, []]));
+
+  (deck.cards || []).forEach(item => {
+    groups.get(normalizeType(item)).push(item);
+  });
+
+  (deck.lands || []).forEach(item => {
+    groups.get("Land").push({ ...item, type: "Land" });
+  });
+
+  return TYPE_ORDER
+    .map(type => ({ type, entries: groups.get(type) }))
+    .filter(group => group.entries.length > 0);
 }
 
 function renderDetail(config, decks, deckId) {
@@ -194,9 +243,10 @@ function renderDetail(config, decks, deckId) {
   head.append(meta);
   detail.append(head);
 
-  const lists = el("div", "card-lists");
-  lists.append(renderList("Karten", deck.cards || []));
-  lists.append(renderList("Länder", deck.lands || []));
+  const lists = el("div", "card-lists card-lists-types");
+  groupedDeckEntries(deck).forEach(group => {
+    lists.append(renderList(TYPE_LABELS[group.type] || group.type, group.entries));
+  });
   detail.append(lists);
 
   app.append(detail);
